@@ -90,9 +90,10 @@ class towerCraneController extends Controller {
             // 查询塔机最新实时数据
             $realData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(1)->select();
             // 统计总报警次数
-            $warningData = D('Realinfo')->where('sim_num='.$sim_num)->select();
-            foreach ($warningData as $k => $v) {
+            $allData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->select();
+            foreach ($allData as $k => $v) {
                 $warning[$k] = $v['iswarning'];
+                $updateTime[$k] = $v['update_time'];
             }
             $warningTime = array_count_values($warning)[1];
             $warn = array('warningTime' => $warningTime);
@@ -101,8 +102,25 @@ class towerCraneController extends Controller {
             $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
             $model = $modelData[0]['model'];
             $baseData = D('Baseinfo')->where("model='".$model."'")->select();
+
+            // 计算在线时间
+            for($i = 0; $i < count($updateTime); $i++){
+                $diff = $updateTime[$i-1] - $updateTime[$i];
+                if($diff > 10){
+                    $startTime = $updateTime[$i-1];
+                    break;
+                }
+            };
+            $endTime = $updateTime[0];
+            $duration = $endTime -  $startTime;
+            $workTime = array(
+                'startTime' => $startTime,
+                'endTime' => $endTime,
+                'duration' => $duration,
+            );
+
             // 拼接数组
-            $data = array_merge($realData[0],$baseData[0],$warn);
+            $data = array_merge($realData[0],$baseData[0],$warn,$workTime);
 
             // 返回数据
             if($realData && $modelData && $baseData){
@@ -112,7 +130,6 @@ class towerCraneController extends Controller {
             }
         }
         $this->display();
-
     }
 
     public function historyData(){
