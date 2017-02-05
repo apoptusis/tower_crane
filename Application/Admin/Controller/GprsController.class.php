@@ -2,89 +2,50 @@
 namespace Admin\Controller;
 use Think\Controller;
 class GprsController extends CommonController {
-
     public function datain(){
 
-                //1001号塔机添加数据
-                $data1 = array(
-                    'crane_id' => '1001',
-                    'sim_num' => '13877998855',
-                    'update_time' => time(),
-                    'latitude' => '112.92',
-                    'longitude' => '27.90',
-                    'height' => mt_rand(30,50),
-                    'rotate' => mt_rand(-360,360),
-                    'wind' => mt_rand(0,10),
-                );
-                $data1['weight']=mt_rand(8,32);
-                $data1['amplitude']=mt_rand(30,50);
-                $data1['force']=$data1['weight']*$data1['amplitude'];
-                $res1 = D('Realinfo')->add($data1);
-                if(!$res1) {
-                    echo  '1号塔机GPRS连接失败！';
-                }
+        function randomDataInSQL($crane_id,$sim_num,$latitude,$longitude){
+            // 生成随机数据
+            $data = array(
+                'crane_id' => $crane_id,
+                'sim_num' => $sim_num,
+                'latitude' => $latitude,
+                'longitude' => $longitude,
+                'update_time' => time(),
+                'weight' => mt_rand(5,10)/100,
+                'amplitude' => mt_rand(3000,5000)/100,
+                'wind' => mt_rand(500,2000)/100,
+                'height' => mt_rand(2000,3000)/100,
+                'rotate' => mt_rand(-18000,18000)/100,
+            );
+            $data['force']=$data['weight']*$data['amplitude']*9.8;
+            // 50%的概率报警
+            $warning = mt_rand(0,100);
+            if($warning > 50){
+                $isWarning = 1;
+            }else {
+                $isWarning = 0;
+            }
+            $data['isWarning'] = $isWarning;
+            // 插入数据库
+            $res = D('Realinfo')->add($data);
+            if(!$res) {
+                echo  'GPRS连接失败！<br/>';
+            }else {
+                echo $data['crane_id']."号塔机GPRS连接成功！数据写入中...<br/>";
+            }
+        }
 
-                //1002号塔机添加数据
-                $data2 = array(
-                    'crane_id' => '1002',
-                    'sim_num' => '18673244444',
-                    'update_time' => time(),
-                    'latitude' => '112.85',
-                    'longitude' => '27.85',
-                    'height' => mt_rand(30,50),
-                    'rotate' => mt_rand(-360,360),
-                    'wind' => mt_rand(0,10),
-                );
-                $data2['weight']=mt_rand(8,32);
-                $data2['amplitude']=mt_rand(30,50);
-                $data2['force']=$data2['weight']*$data2['amplitude'];
-                $res2 = D('Realinfo')->add($data2);
-                if(!$res2) {
-                    echo  '2号塔机GPRS连接失败！';
-                }
+        //1001号塔机添加数据
+        randomDataInSQL(1001,13877998855,112.92,27.90);
+        //1002号塔机添加数据
+        randomDataInSQL(1002,18673244444,112.85,27.85);
+        //1003号塔机添加数据
+        randomDataInSQL(1003,13577589542,112.85,27.90);
+        //1004号塔机添加数据
+        randomDataInSQL(1004,18777665599,112.80,28.00);
 
-                //1003号塔机添加数据
-                $data3 = array(
-                    'crane_id' => '1003',
-                    'sim_num' => '13577589542',
-                    'update_time' => time(),
-                    'latitude' => '112.87',
-                    'longitude' => '27.90',
-                    'height' => mt_rand(30,50),
-                    'rotate' => mt_rand(-360,360),
-                    'wind' => mt_rand(0,10),
-                );
-                $data3['weight']=mt_rand(8,32);
-                $data3['amplitude']=mt_rand(30,50);
-                $data3['force']=$data3['weight']*$data3['amplitude'];
-                $res3 = D('Realinfo')->add($data3);
-                if(!$res3) {
-                    echo '3号塔机GPRS连接失败！';
-                }
-
-                //1004号塔机添加数据
-                $data4 = array(
-                    'crane_id' => '1004',
-                    'sim_num' => '18777665599',
-                    'update_time' => time(),
-                    'latitude' => '112.80',
-                    'longitude' => '28.00',
-                    'height' => mt_rand(30,50),
-                    'rotate' => mt_rand(-360,360),
-                    'wind' => mt_rand(0,10),
-                );
-                $data4['weight']=mt_rand(8,32);
-                $data4['amplitude']=mt_rand(30,50);
-                $data4['force']=$data4['weight']*$data4['amplitude'];
-                $res4 = D('Realinfo')->add($data4);
-                if(!$res4) {
-                    echo '4号塔机GPRS连接失败！';
-                }
-
-                if($res1 && $res2 && $res3){
-                    echo 'GPRS连接成功！数据写入中...';
-                }
-
+        // 10s刷新一次页面
         echo ("<script type=\"text/javascript\">");
         echo ("function fresh_page()");
         echo ("{");
@@ -92,8 +53,6 @@ class GprsController extends CommonController {
         echo ("}");
         echo ("setTimeout('fresh_page()',10000);");
         echo ("</script>");
-
-
     }
 
 
