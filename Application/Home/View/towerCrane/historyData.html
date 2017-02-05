@@ -21,11 +21,12 @@
             padding: 0;
         }
         html,body {
-            margin-top: -10px;
+            margin-top: -20px;
+            margin-left: 5px;
         }
         #charts1 {
             width: 100%;
-            height: 600px;
+            height: 310px;
         }
     </style>
 </head>
@@ -77,10 +78,6 @@
                         return [pt[0], '10%'];
                     }
                 },
-    //        title: {
-    //            left: 'center',
-    //            text: '历史数据',
-    //        },
                 xAxis: {
                     type: 'category',
                     boundaryGap: false,

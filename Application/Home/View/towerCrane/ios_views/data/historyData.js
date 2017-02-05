@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 import WView from '../common/WView';
 import NavigationBar from '../common/navBar';
+import PercentageCircle from 'react-native-percentage-circle';
 
 export default class historyDataPage extends Component {
     constructor(props){
