@@ -153,4 +153,8 @@ class towerCraneController extends Controller {
         }
         $this->display();
     }
+
+    public function showPassword(){
+        echo getMd5('admin1');
+    }
 }
