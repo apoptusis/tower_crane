@@ -13,8 +13,9 @@ import WView from '../common/WView';
 import Util from '../common/util';
 import historyDataPage from './historyData'
 import NavigationBar from '../common/navBar';
-import PercentageCircle from 'react-native-percentage-circle';
+import PercentageCircle from '../common/circle';
 
+// TODO:PercentageCircle组件似乎存在显示错误的问题
 export default class SingleDataPage extends Component {
     constructor(props) {
         super(props);
@@ -65,19 +66,19 @@ export default class SingleDataPage extends Component {
                         <Text style={styles.containerTitle}> 实时数据 </Text>
                         <View style={styles.dataItemContainer}>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={this.state.weight/this.state.maxweight*100} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.floor(this.state.weight/this.state.maxweight*100)} color={"#3ea8a0"}>
                                     <Text style={styles.data}>{this.state.weight} t</Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 起重重量 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={this.state.amplitude/this.state.maxamplitude*100} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.floor(this.state.amplitude/this.state.maxamplitude*100)} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.amplitude} m </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 变幅幅度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={this.state.force/this.state.maxforce*100} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.floor(this.state.force/this.state.maxforce*100)} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.force} N·M </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 起重力矩 </Text>
@@ -86,19 +87,19 @@ export default class SingleDataPage extends Component {
 
                         <View style={styles.dataItemContainer}>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={Math.abs(this.state.rotate/this.state.maxrotate*100)} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.floor(Math.abs(this.state.rotate/this.state.maxrotate*100))} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.rotate} ° </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 回转角度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={this.state.height/this.state.maxheight*100} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.floor(this.state.height/this.state.maxheight*100)} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.height} m </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 起升高度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={(this.state.wind/this.state.maxwind)*100} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.floor((this.state.wind/this.state.maxwind)*100)} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.wind} m/s </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 当前风速 </Text>
@@ -201,8 +202,6 @@ export default class SingleDataPage extends Component {
                         var timeStr = time.getFullYear()+'年'+(time.getMonth()+1)+'月'+time.getDate()+'日 '+time.getHours()+':'+time.getMinutes();
                         var startTime = new Date(responseJson.data.startTime*1000);
                         var startTimeStr = startTime.getHours()+':'+startTime.getMinutes()+':'+startTime.getSeconds();
-
-
 
                         // 将数据发送给state
                         that.setState({
