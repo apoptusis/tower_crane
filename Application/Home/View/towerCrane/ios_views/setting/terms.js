@@ -6,19 +6,19 @@ import {
     Image,
 } from 'react-native';
 import NavigationBar from '../common/navBar';
-
+import WView from '../common/WView'
 export default class help extends Component {
     render() {
         return (
-            <View>
+            <View style={{flex:1}}>
                 <NavigationBar
                     title={'服务条款'}
                     leftText={'设置'}
                     leftAction={ this._backToFront.bind(this) }
                 />
-                <Text>
-                    服务调控
-                </Text>
+                <WView
+                    url='http://localhost:8888/tower_crane/Application/Home/View/towerCrane/ios_views/setting/terms.html'
+                />
             </View>
         );
     }
