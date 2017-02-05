@@ -70,7 +70,7 @@ export default class SingleDataPage extends Component {
                                 <PercentageCircle radius={50} percent={35} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.force} N·M </Text>
                                 </PercentageCircle>
-                                <Text style={styles.title}> 起重力矩 </Text>
+                                <Text style={styles.title}> 起重力矩1 </Text>
                             </View>
                         </View>
 
