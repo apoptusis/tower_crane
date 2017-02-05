@@ -27,6 +27,9 @@ export default class SingleDataPage extends Component {
             wind: null,
             warningTime:null,
             update_time: null,
+            startTime: null,
+            endTime: null,
+            duration: null,
             maxweight: null,
             maxheight: null,
             maxforce: null,
@@ -95,7 +98,7 @@ export default class SingleDataPage extends Component {
                                 <Text style={styles.title}> 起升高度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={this.state.wind/this.state.maxwind*100} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={(this.state.wind/this.state.maxwind)*100} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.wind} m/s </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 当前风速 </Text>
@@ -111,10 +114,39 @@ export default class SingleDataPage extends Component {
                                 <Text style={styles.infoTitle}>报警次数</Text>
                             </View>
                             <View style={styles.infoItem}>
-                                <Text style={styles.infoData}>8 h</Text>
+                                <Text style={styles.infoData}>{this.state.duration} h</Text>
                                 <Text style={styles.infoTitle}>在线时长</Text>
                             </View>
                         </View>
+
+                        {/*<View style={styles.infoList}>*/}
+                            {/*<View style={styles.infoListItem}>*/}
+                                {/*<Text>重量报警</Text>*/}
+                                {/*<Text>3</Text>*/}
+                            {/*</View>*/}
+                            {/*<View style={styles.infoListItem}>*/}
+                                {/*<Text>幅度报警</Text>*/}
+                                {/*<Text>3</Text>*/}
+                            {/*</View>*/}
+                            {/*<View style={styles.infoListItem}>*/}
+                                {/*<Text>力矩报警</Text>*/}
+                                {/*<Text>3</Text>*/}
+                            {/*</View>*/}
+                            {/*<View style={styles.infoListItem}>*/}
+                                {/*<Text>高度报警</Text>*/}
+                                {/*<Text>3</Text>*/}
+                            {/*</View>*/}
+                            {/*<View style={styles.infoListItem}>*/}
+                                {/*<Text>角度报警</Text>*/}
+                                {/*<Text>3</Text>*/}
+                            {/*</View>*/}
+                            {/*<View style={styles.infoListItem}>*/}
+                                {/*<Text>风速报警</Text>*/}
+                                {/*<Text>3</Text>*/}
+                            {/*</View>*/}
+                        {/*</View>*/}
+
+
                     </View>
                     {/*<View style={styles.button} >*/}
                         {/*<TouchableOpacity onPress={this._goHistoryDataPage.bind(this,this.props.sim_num)}>*/}
@@ -167,6 +199,11 @@ export default class SingleDataPage extends Component {
                         // 转换一下时间格式,unix时间戳*1000,使用getFullYear
                         var time = new Date(responseJson.data.update_time*1000);
                         var timeStr = time.getFullYear()+'年'+(time.getMonth()+1)+'月'+time.getDate()+'日 '+time.getHours()+':'+time.getMinutes();
+                        var startTime = new Date(responseJson.data.startTime*1000);
+                        var startTimeStr = startTime.getHours()+':'+startTime.getMinutes()+':'+startTime.getSeconds();
+
+
+
                         // 将数据发送给state
                         that.setState({
                             weight: responseJson.data.weight,
@@ -176,6 +213,9 @@ export default class SingleDataPage extends Component {
                             rotate: responseJson.data.rotate,
                             wind: responseJson.data.wind,
                             warningTime: responseJson.data.warningTime,
+                            startTime: startTimeStr,
+                            endTime: timeStr,
+                            duration: (responseJson.data.duration/3600).toFixed(2),
                             update_time: timeStr,
                             maxweight: responseJson.data.maxweight,
                             maxheight: responseJson.data.maxheight,
