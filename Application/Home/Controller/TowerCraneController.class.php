@@ -86,13 +86,25 @@ class towerCraneController extends Controller {
     public function realData(){
         if(IS_POST) {
             $sim_num = I('post.sim_num');
-//            $sim_num = 13877998855;
+//            $sim_num = 18673244444;
+            // 查询塔机最新实时数据
             $realData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(1)->select();
+            // 统计总报警次数
+            $warningData = D('Realinfo')->where('sim_num='.$sim_num)->select();
+            foreach ($warningData as $k => $v) {
+                $warning[$k] = $v['iswarning'];
+            }
+            $warningTime = array_count_values($warning)[1];
+            $warn = array('warningTime' => $warningTime);
+
+            // 查询塔机基本信息，如额定力矩
             $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
             $model = $modelData[0]['model'];
             $baseData = D('Baseinfo')->where("model='".$model."'")->select();
-            $data = array_merge($realData[0],$baseData[0]);
-//            var_dump($data);
+            // 拼接数组
+            $data = array_merge($realData[0],$baseData[0],$warn);
+
+            // 返回数据
             if($realData && $modelData && $baseData){
                 return show(1, '查询成功', $data);
             }else{
