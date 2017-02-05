@@ -1,0 +1,74 @@
+	<!--顶 部 导 航-->
+    <div class="navbar">
+        <div class="navbar-inner">
+                <ul class="nav pull-right">
+                    
+                    <li><a href="#" class="hidden-phone visible-tablet visible-desktop" role="button">设置</a></li>
+                    <li id="fat-menu" class="dropdown">
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon-user"></i> 管理员 {$username}
+                            <i class="icon-caret-down"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">我的账号</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" class="visible-phone" href="#">设置</a></li>
+                            <li class="divider visible-phone"></li>
+                            <li><a tabindex="-1" href="{:U('Admin/Login/logout')}">退出登录</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <a class="brand" href="{:U('Admin/Index/index')}"><span class="first">江麓</span> <span class="second">塔机监控系统</span></a>
+        </div>
+    </div>
+    
+
+
+    <!--侧 边 导 航-->
+    <div class="sidebar-nav">
+
+        <a href="#common-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>塔机监控<i class="icon-chevron-up"></i></a>
+        <ul id="common-menu" class="nav nav-list collapse in">
+            <li ><a href="{:U('Admin/CraneReal/CraneList')}">塔机工况监控</a></li>
+            <li ><a href="#">服务转移</a></li>
+            <li ><a href="#">报警查询</a></li>
+            <li ><a href="#">不在线跟踪</a></li>
+        </ul>
+
+        <a href="#manufacture-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>远程控制<i class="icon-chevron-up"></i></a>
+        <ul id="manufacture-menu" class="nav nav-list collapse">
+            <li ><a href="{:U('Admin/CraneAdmin/craneList')}">塔机注册</a></li>
+            <li ><a href="#">塔机锁机、解锁、上线提醒</a></li>
+            <li ><a href="#">锁解机日志</a></li>
+            <li ><a href="#">指令透传</a></li>
+            <li ><a href="#">短信报警开关</a></li>
+            <li ><a href="#">参数设置</a></li>
+
+        </ul>
+
+        <a href="#manage-menu" class="nav-header" data-toggle="collapse"><i class="icon-random"></i>生产制造管理<i class="icon-chevron-up"></i></a>
+        <ul id="manage-menu" class="nav nav-list collapse">
+            <li ><a href="#">SIM卡池管理</a></li>
+            <li ><a href="#">终端池管理</a></li>
+            <li ><a href="#">服务开通管理</a></li>
+            <li ><a href="#">客户信息管理</a></li>
+
+        </ul>
+
+        <a href="#service-menu" class="nav-header" data-toggle="collapse"><i class="icon-wrench"></i>系统管理<i class="icon-chevron-up"></i></a>
+        <ul id="service-menu" class="nav nav-list collapse">
+            <li ><a href="{:U('Admin/User/userlist')}">用户管理</a></li>
+            <li ><a href="#">操作日志</a></li>
+            <li ><a href="#">通讯日志</a></li>
+            <li ><a href="#">字典项管理</a></li>
+            <li ><a href="#">功能集管理</a></li>
+            <li ><a href="#">塔机类型管理</a></li>
+            <li ><a href="#">塔机型号管理</a></li>
+            <li ><a href="#">塔机组管理</a></li>
+        </ul>
+
+        <a href="../faq.html" class="nav-header" ><i class="icon-comment"></i>系统配置</a>
+    </div>
+    

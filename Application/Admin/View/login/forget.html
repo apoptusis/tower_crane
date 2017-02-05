@@ -1,0 +1,52 @@
+<include file="index/header" />
+    
+    <div class="navbar">
+        <div class="navbar-inner">
+                <ul class="nav pull-right">
+                    
+                </ul>
+                <a class="brand" href="#"><span class="first">江麓</span> <span class="second">塔机监控系统</span></a>
+        </div>
+    </div>
+
+        <div class="row-fluid">
+    <div class="dialog">
+        <div class="block">
+            <p class="block-heading">重 置 密 码</p>
+            <div class="block-body">
+                <form id="tower-form">
+                    <label>真实姓名</label>
+                    <input type="text" name="realname" class="span12" placeholder="请输入注册时的填写的真实姓名"/>
+                    <label>邮箱地址</label>
+                    <input type="text" name="email" class="span12" placeholder="请输入注册时的填写的邮箱地址"/>
+                    <label>授权码</label>
+                    <input type="text" name="auth_code" class="span12" placeholder="请输入注册时的填写的授权码"/>
+                    <label>输入新密码</label>
+                    <input name="newPwd" type="password" class="span12" placeholder="请输入新密码"/>
+                    <label>确认新密码</label>
+                    <input name="newPwdConfirm" type="password" class="span12" placeholder="请再次输入密码"/>
+                    <button id="button-submit" type="button" class="btn btn-primary pull-right">确认</button>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+        <a href="{:U('Admin/Login/login')}">返回登录页面</a>
+    </div>
+</div>
+<script src="__PUBLIC__/lib/bootstrap/js/bootstrap.js"></script>
+<script src="__PUBLIC__/lib/jquery-1.8.1.min.js"></script>
+<script src="__PUBLIC__/lib/layer/layer.js"></script>
+<script src="__PUBLIC__/js/dialog.js"></script>
+<script src="__PUBLIC__/js/admin/common.js"></script>
+<script>
+    var SCOPE = {
+        'post_url' : "{:U('Admin/Login/forget')}",
+        'jump_url' : "{:U('Admin/Login/login')}",
+    }
+</script>
+
+    
+  </body>
+</html>
+
+

@@ -1,0 +1,480 @@
+[ 2017-02-05T01:41:24+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0097s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230084','112.92','27.9','34','-201','1','24','47','1128') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230084','112.85','27.85','41','-359','10','28','45','1260') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230084','112.87','27.9','45','-17','1','30','35','1050') [ RunTime:0.0151s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230084','112.8','28','34','252','9','24','45','1080') [ RunTime:0.0265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-02-05T01:41:34+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0287s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230094','112.92','27.9','49','69','1','12','32','384') [ RunTime:0.0111s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230094','112.85','27.85','39','319','0','19','41','779') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230094','112.87','27.9','49','-151','1','9','36','324') [ RunTime:0.0210s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230094','112.8','28','41','80','8','21','41','861') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018629s ]
+
+[ 2017-02-05T01:41:45+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230104','112.92','27.9','40','-10','6','24','43','1032') [ RunTime:0.0186s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230105','112.85','27.85','41','294','2','15','31','465') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230105','112.87','27.9','40','124','0','23','40','920') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230105','112.8','28','42','330','2','10','36','360') [ RunTime:0.0148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-02-05T01:41:55+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230115','112.92','27.9','41','47','8','31','47','1457') [ RunTime:0.0239s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230115','112.85','27.85','47','-75','10','19','34','646') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230115','112.87','27.9','34','105','7','21','49','1029') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230115','112.8','28','36','-225','6','19','42','798') [ RunTime:0.0395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-02-05T01:42:05+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230125','112.92','27.9','48','-107','5','13','39','507') [ RunTime:0.0325s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230125','112.85','27.85','42','-256','6','13','36','468') [ RunTime:0.0007s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230125','112.87','27.9','40','359','5','8','35','280') [ RunTime:0.0116s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230125','112.8','28','46','-272','6','32','43','1376') [ RunTime:0.0131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002342s ]
+
+[ 2017-02-05T01:48:06+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230486','112.92','27.9','30','223','9','9','30','270') [ RunTime:0.0135s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230486','112.85','27.85','31','136','4','9','34','306') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230486','112.87','27.9','33','-341','3','20','39','780') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230486','112.8','28','42','-271','6','23','49','1127') [ RunTime:0.0295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-02-05T01:48:16+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0013s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230496','112.92','27.9','41','258','10','10','40','400') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230496','112.85','27.85','30','-64','4','19','44','836') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230496','112.87','27.9','43','200','0','11','31','341') [ RunTime:0.0179s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230496','112.8','28','50','-116','8','32','43','1376') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-02-05T01:48:26+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486230506','112.92','27.9','38','-252','8','9','49','441') [ RunTime:0.0126s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486230506','112.85','27.85','30','126','0','32','37','1184') [ RunTime:0.0097s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486230506','112.87','27.9','41','85','6','15','49','735') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486230506','112.8','28','35','-157','7','20','30','600') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-02-05T03:17:22+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.4736s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235841','112.92','27.9','49','-66','4','22','47','1034') [ RunTime:0.3623s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235842','112.85','27.85','44','245','9','21','35','735') [ RunTime:0.2787s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235842','112.87','27.9','39','312','5','23','46','1058') [ RunTime:0.1321s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235842','112.8','28','46','121','3','31','39','1209') [ RunTime:0.0973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010141s ]
+
+[ 2017-02-05T03:17:33+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0020s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235853','112.92','27.9','49','298','1','31','45','1395') [ RunTime:0.0221s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235853','112.85','27.85','33','-193','7','8','38','304') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235853','112.87','27.9','34','-298','7','19','41','779') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235853','112.8','28','37','-279','10','32','31','992') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-02-05T03:17:43+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235863','112.92','27.9','35','-61','7','12','50','600') [ RunTime:0.0206s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235863','112.85','27.85','33','-132','2','15','31','465') [ RunTime:0.0095s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235863','112.87','27.9','38','90','7','25','32','800') [ RunTime:0.0166s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235863','112.8','28','49','119','9','17','39','663') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2017-02-05T03:18:03+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0021s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235883','112.92','27.9','32','-127','2','9','40','360') [ RunTime:0.0007s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235883','112.85','27.85','32','295','7','14','48','672') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235883','112.87','27.9','50','-92','0','16','30','480') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235883','112.8','28','44','-284','4','17','50','850') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-02-05T03:18:13+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235893','112.92','27.9','38','-148','9','19','48','912') [ RunTime:0.0202s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235893','112.85','27.85','48','-35','5','9','36','324') [ RunTime:0.0767s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235893','112.87','27.9','46','-275','2','23','36','828') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235893','112.8','28','44','289','3','10','39','390') [ RunTime:0.0234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-02-05T03:18:23+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235903','112.92','27.9','36','349','1','12','32','384') [ RunTime:0.0142s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235903','112.85','27.85','34','296','7','15','38','570') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235903','112.87','27.9','40','-27','8','23','40','920') [ RunTime:0.0089s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235903','112.8','28','34','19','5','16','44','704') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-02-05T03:18:33+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0013s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486235913','112.92','27.9','38','-175','3','28','37','1036') [ RunTime:0.0157s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486235913','112.85','27.85','33','-270','7','32','40','1280') [ RunTime:0.0282s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486235913','112.87','27.9','38','-267','7','15','37','555') [ RunTime:0.0194s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486235913','112.8','28','39','-212','8','28','37','1036') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-02-05T04:00:37+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0017s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238437','112.92','27.9','40','48','2','19','34','646') [ RunTime:0.0719s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238437','112.85','27.85','41','-176','9','17','46','782') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238437','112.87','27.9','34','-219','9','18','45','810') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238437','112.8','28','37','-275','9','29','41','1189') [ RunTime:0.0126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-02-05T04:00:47+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238447','112.92','27.9','50','121','2','8','37','296') [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238447','112.85','27.85','43','193','8','14','36','504') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238447','112.87','27.9','32','-273','0','11','40','440') [ RunTime:0.0034s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238447','112.8','28','46','-258','9','32','38','1216') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-02-05T04:00:57+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238457','112.92','27.9','40','319','5','8','30','240') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238457','112.85','27.85','48','-249','4','25','33','825') [ RunTime:0.0007s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238457','112.87','27.9','39','130','3','18','48','864') [ RunTime:0.0274s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238457','112.8','28','31','-209','5','17','39','663') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-02-05T04:01:07+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238467','112.92','27.9','38','84','10','15','33','495') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238467','112.85','27.85','34','339','6','26','45','1170') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238467','112.87','27.9','42','40','10','10','49','490') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238467','112.8','28','34','-223','4','12','45','540') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-02-05T04:01:17+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238477','112.92','27.9','33','27','6','20','47','940') [ RunTime:0.0007s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238477','112.85','27.85','39','-265','1','28','34','952') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238477','112.87','27.9','47','-71','3','17','45','765') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238477','112.8','28','49','-94','10','22','41','902') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-02-05T04:01:27+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238487','112.92','27.9','47','-39','3','11','32','352') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238487','112.85','27.85','46','-227','5','28','40','1120') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238487','112.87','27.9','45','-281','4','17','32','544') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238487','112.8','28','31','195','6','19','37','703') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-02-05T04:01:37+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238497','112.92','27.9','41','181','0','27','50','1350') [ RunTime:0.0009s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238497','112.85','27.85','40','-284','3','22','32','704') [ RunTime:0.0236s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238497','112.87','27.9','49','98','9','22','45','990') [ RunTime:0.0008s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238497','112.8','28','32','-285','6','30','50','1500') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-02-05T04:01:47+08:00 ] ::1 /tower_crane/index.php/Admin/Gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0079s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486238507','112.92','27.9','45','88','0','17','32','544') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486238507','112.85','27.85','49','-268','7','32','33','1056') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486238507','112.87','27.9','37','136','2','32','37','1184') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486238507','112.8','28','31','184','7','28','37','1036') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-02-05T07:17:18+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0058s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250237','112.92','27.9','30','241','0','24','49','1176') [ RunTime:0.1139s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250238','112.85','27.85','40','-7','1','29','45','1305') [ RunTime:0.0057s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250238','112.87','27.9','30','-134','10','21','49','1029') [ RunTime:0.0264s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250238','112.8','28','30','-281','7','22','48','1056') [ RunTime:0.0158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-02-05T07:17:28+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250248','112.92','27.9','49','21','9','22','49','1078') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250248','112.85','27.85','50','-99','10','23','46','1058') [ RunTime:0.0007s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250248','112.87','27.9','42','-266','5','13','46','598') [ RunTime:0.0212s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250248','112.8','28','42','128','9','23','45','1035') [ RunTime:0.0248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-02-05T07:17:38+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250258','112.92','27.9','30','-11','7','20','50','1000') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250258','112.85','27.85','32','-276','4','11','40','440') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250258','112.87','27.9','42','293','1','24','45','1080') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250258','112.8','28','34','60','0','30','42','1260') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-02-05T07:17:48+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250268','112.92','27.9','49','9','6','22','33','726') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250268','112.85','27.85','44','-267','10','26','33','858') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250268','112.87','27.9','48','206','9','30','35','1050') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250268','112.8','28','47','65','10','15','43','645') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-02-05T07:17:58+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0012s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250278','112.92','27.9','32','-98','3','13','42','546') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250278','112.85','27.85','41','-265','1','27','41','1107') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250278','112.87','27.9','38','202','7','30','40','1200') [ RunTime:0.0217s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250278','112.8','28','41','7','3','30','45','1350') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-02-05T07:18:08+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250288','112.92','27.9','36','102','6','18','44','792') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250288','112.85','27.85','44','-269','4','27','47','1269') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250288','112.87','27.9','33','-267','8','23','32','736') [ RunTime:0.0213s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250288','112.8','28','47','-352','6','28','47','1316') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-02-05T07:18:18+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1486250298','112.92','27.9','31','-20','6','26','34','884') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1486250298','112.85','27.85','37','-342','3','28','37','1036') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1486250298','112.87','27.9','48','-311','4','30','32','960') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1486250298','112.8','28','41','242','7','10','50','500') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+

@@ -1,0 +1,2658 @@
+[ 2017-02-01T02:54:02+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-02-01T02:54:04+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-02-01T02:54:18+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-01T02:54:20+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-02-01T02:54:22+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:23+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:23+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:29+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:30+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:30+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:30+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:30+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:54:30+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:55:42+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:55:49+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-02-01T02:56:09+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-02-01T02:56:10+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-02-01T02:56:13+08:00 ] ::1 /tower_crane/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-02-01T02:56:13+08:00 ] ::1 /tower_crane/index.php/Admin/Error/e403.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-02-01T02:56:16+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-01T02:56:43+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/CraneAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+ERR: 非法操作:CraneAdmin
+
+[ 2017-02-01T02:56:55+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/Cranelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:57:05+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T02:57:07+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-02-01T03:00:39+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE ( status=1 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/c505b866f82f84617647e77cfde1f47c.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-02-01T03:00:43+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-02-01T03:00:43+08:00 ] ::1 /tower_crane/index.php/Admin/Error/e403.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-02-01T03:00:45+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-02-01T03:00:49+08:00 ] ::1 /tower_crane/index.php/Admin/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' AND `password` = '10029781e4bd0568e2844e8564f84d9b' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-02-01T03:00:50+08:00 ] ::1 /tower_crane/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-02-01T03:01:06+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-02-01T03:01:06+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0005s ]
+
+[ 2017-02-01T03:01:09+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE ( status=1 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/324765205cb483976410c93fb420c09e.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-02-01T03:01:12+08:00 ] ::1 /tower_crane/index.php/Admin/CraneAdmin/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE ( status=1 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/324765205cb483976410c93fb420c09e.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-02-01T03:01:14+08:00 ] ::1 /tower_crane/index.php/Admin/User/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin` WHERE ( status=1 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/3f74894fda2606b051ae567b9485e4c8.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-02-01T03:01:22+08:00 ] ::1 /tower_crane/index.php/Admin/User/userlist/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin` WHERE ( status=1 ) ORDER BY id LIMIT 10,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/3f74894fda2606b051ae567b9485e4c8.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-02-01T03:01:23+08:00 ] ::1 /tower_crane/index.php/Admin/User/userlist/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-02-01T03:03:58+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0012s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1485889438','112.92','27.9','36','-112','0','11','40','440') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1485889438','112.85','27.85','33','-253','5','16','38','608') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1485889438','112.87','27.9','47','-147','10','12','31','372') [ RunTime:0.0004s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1485889438','112.8','28','40','183','8','18','39','702') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-02-01T03:04:09+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1485889449','112.92','27.9','50','-50','3','14','31','434') [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1485889449','112.85','27.85','32','-166','1','19','30','570') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1485889449','112.87','27.9','49','221','5','21','44','924') [ RunTime:0.0036s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1485889449','112.8','28','43','192','5','30','47','1410') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-02-01T03:04:20+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1485889460','112.92','27.9','47','-15','2','9','30','270') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1485889460','112.85','27.85','49','91','6','9','35','315') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1485889460','112.87','27.9','40','-220','8','30','35','1050') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1485889460','112.8','28','30','48','7','18','46','828') [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-02-01T03:04:31+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1485889471','112.92','27.9','35','199','3','26','50','1300') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1485889471','112.85','27.85','40','245','0','21','41','861') [ RunTime:0.0006s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1485889471','112.87','27.9','30','-157','2','22','37','814') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1485889471','112.8','28','45','280','10','30','41','1230') [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-02-01T03:04:45+08:00 ] ::1 /tower_crane/index.php/Admin/gprs/datain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1001','13877998855','1485889485','112.92','27.9','36','-305','2','17','44','748') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1002','18673244444','1485889485','112.85','27.85','30','-13','3','23','30','690') [ RunTime:0.0005s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1003','13577589542','1485889485','112.87','27.9','34','-204','7','10','37','370') [ RunTime:0.0007s ]
+SQL: INSERT INTO `realinfo` (`crane_id`,`sim_num`,`update_time`,`latitude`,`longitude`,`height`,`rotate`,`wind`,`weight`,`amplitude`,`force`) VALUES ('1004','18777665599','1485889485','112.8','28','35','233','6','15','35','525') [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-02-01T06:59:32+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-02-01T06:59:33+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T06:59:36+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-02-01T06:59:36+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+
+[ 2017-02-01T07:01:42+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2017-02-01T07:01:42+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0648s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T07:03:46+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-02-01T07:03:47+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+
+[ 2017-02-01T07:05:48+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-02-01T07:05:49+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+
+[ 2017-02-01T07:07:50+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-02-01T07:07:51+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T07:09:54+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-02-01T07:09:55+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+
+[ 2017-02-01T07:12:00+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-02-01T07:12:00+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+
+[ 2017-02-01T07:14:03+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-02-01T07:14:04+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T07:16:05+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-02-01T07:16:05+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+
+[ 2017-02-01T07:18:06+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-02-01T07:18:06+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0020s ]
+
+[ 2017-02-01T07:20:06+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-02-01T07:20:07+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+
+[ 2017-02-01T07:22:08+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-02-01T07:22:09+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T07:24:15+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008189s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.3462s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013002s ]
+
+[ 2017-02-01T07:24:16+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0651s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.1339s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T07:26:18+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-02-01T07:26:18+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T07:28:21+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0394s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-02-01T07:28:22+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0212s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0015s ]
+
+[ 2017-02-01T07:30:22+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003063s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0161s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0158s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0175s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008188s ]
+
+[ 2017-02-01T07:30:23+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002386s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0030s ]
+
+[ 2017-02-01T07:32:25+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0024s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2017-02-01T07:32:25+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T07:34:26+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-02-01T07:34:27+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+
+[ 2017-02-01T07:36:27+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-02-01T07:36:27+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+
+[ 2017-02-01T07:38:30+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-02-01T07:38:30+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0123s ]
+
+[ 2017-02-01T07:40:36+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-02-01T07:40:36+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T07:42:37+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-02-01T07:42:38+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0562s ]
+
+[ 2017-02-01T07:44:38+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-02-01T07:44:38+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T07:46:39+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-02-01T07:46:40+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T07:48:45+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-02-01T07:48:45+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T07:50:46+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-02-01T07:50:46+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+
+[ 2017-02-01T07:52:49+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-02-01T07:52:50+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T07:54:50+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008651s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-02-01T07:54:51+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0014s ]
+
+[ 2017-02-01T07:56:51+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-02-01T07:56:52+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0154s ]
+
+[ 2017-02-01T07:58:53+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004435s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.1114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006947s ]
+
+[ 2017-02-01T07:58:53+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+
+[ 2017-02-01T08:00:57+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-02-01T08:00:57+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+
+[ 2017-02-01T08:02:58+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-02-01T08:02:59+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0011s ]
+
+[ 2017-02-01T08:04:59+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2017-02-01T08:05:00+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0019s ]
+
+[ 2017-02-01T08:07:01+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-02-01T08:07:01+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+
+[ 2017-02-01T08:09:03+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-02-01T08:09:04+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0792s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+
+[ 2017-02-01T08:09:57+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-02-01T08:11:05+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-02-01T08:11:05+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0009s ]
+
+[ 2017-02-01T08:13:08+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-02-01T08:13:08+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0019s ]
+
+[ 2017-02-01T17:28:47+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/CraneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0721s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0489s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: action /Users/hwasin/Documents/Web/project/tower_crane/Application/Admin/Controller/CraneRealController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: username /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 70 行.
+NOTIC: [8] Undefined variable: error /Users/hwasin/Documents/Web/project/tower_crane/Application/Runtime/Cache/Admin/5afee14991f7cc32cc2e048d2c5b7812.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-02-01T17:28:48+08:00 ] ::1 /tower_crane/index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-02-01T17:28:48+08:00 ] ::1 /tower_crane/index.php/Admin/CraneReal/craneList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `realinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `realinfo`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cranereg` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cranereg` WHERE `crane_id` IN ('1001','1002','1003','1004') AND `status` = 1 ORDER BY crane_id LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: select * from realinfo as a
+            where update_time=
+            (select max(b.update_time) from realinfo as b
+            where a.crane_id = b.crane_id
+            )AND sim_num Like'%%' ORDER BY crane_id; [ RunTime:0.0022s ]
+
+[ 2017-02-01T18:07:59+08:00 ] ::1 /tower_crane/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+

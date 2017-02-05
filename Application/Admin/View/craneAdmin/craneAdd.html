@@ -1,0 +1,84 @@
+<include file="index/header" />
+<include file="index/nav" />
+
+<!--修改用户-->
+
+<div class="content">
+
+    <div class="header">
+
+        <h1 class="page-title">塔机注册</h1>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="{:U('Admin/Index/index')}">生产制造管理</a> <span class="divider">/</span></li>
+        <li><a href="{:U('Admin/CraneAdmin/craneList')}">塔机管理</a> <span class="divider">/</span></li>
+        <li class="active">塔机注册</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                </div>
+            </div>
+            <div class="well">
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane active in" id="home">
+                        <form id="tower-form">
+                            <label>塔机编号</label>
+                            <input type="text" class="input-xlarge" placeholder="请输入塔机编号" name="crane_id">
+                            <label>塔机类型</label>
+                            <select name="type" id="" class="input-xlarge" style="width: 285px">
+                                <option value="">请选择塔机类型</option>
+                                <option value="塔头式塔机">塔头式塔机</option>
+                                <option value="平头式塔机">平头式塔机</option>
+                                <option value="动臂式塔机">动臂式塔机</option>
+                            </select>
+                            <label>塔机型号</label>
+                            <input type="text" class="input-xlarge" placeholder="请输入塔机型号" name="model">
+                            <label>SIM卡号</label>
+                            <input type="text" class="input-xlarge" placeholder="请输入SIM卡号" name="sim_num">
+                            <label>终端号</label>
+                            <input type="text" class="input-xlarge" placeholder="请输入终端号" name="term_num">
+                            <label>备注</label>
+                            <textarea value="Smith" rows="3" class="input-xlarge" name="remarks"></textarea>
+                            <div>
+                                <button id="button-submit" type="button" class="btn btn-primary">添加</button>
+                                <button id="button-cancel" type="button" class="btn">取消</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <footer>
+                <hr>
+            </footer>
+
+        </div>
+    </div>
+</div>
+<script src="__PUBLIC__/lib/bootstrap/js/bootstrap.js"></script>
+<script src="__PUBLIC__/lib/jquery-1.8.1.min.js"></script>
+<script src="__PUBLIC__/lib/layer/layer.js"></script>
+<script src="__PUBLIC__/js/dialog.js"></script>
+<script src="__PUBLIC__/js/admin/common.js"></script>
+<script>
+    var SCOPE = {
+        'post_url' : "{:U('Admin/CraneAdmin/craneAdd')}",
+        'jump_url' : "{:U('Admin/CraneAdmin/craneList')}",
+    };
+</script>
+
+</body>
+</html>
+
+
+

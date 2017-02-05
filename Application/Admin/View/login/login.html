@@ -1,0 +1,48 @@
+<include file="index/header" />
+    
+    <div class="navbar">
+        <div class="navbar-inner">
+                <ul class="nav pull-right">
+                    
+                </ul>
+                <a class="brand" href="../index/index.html"><span class="first">江麓</span> <span class="second">塔机监控系统</span></a>
+        </div>
+    </div>
+
+    <div class="row-fluid">
+    <div class="dialog">
+        <div class="block">
+            <p class="block-heading">用 户 登 录</p>
+            <div class="block-body">
+                <form id="tower-form">
+                    <label>用户名</label>
+                    <input type="text" name="username" class="span12" placeholder="请输入用户名">
+                    <label>密码</label>
+                    <input type="password" name="password" class="span12" placeholder="请输入密码">
+                    <button id="button-submit" type="button" class="btn btn-primary pull-right">登录</button>
+                    <label class="remember-me"><input name="remember" type="checkbox" value="1">记住我</label>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+        <p class="pull-right"><a href="{:U('Admin/Login/forget')}">忘记密码?</a></p>
+    </div>
+</div>
+    <script src="__PUBLIC__/lib/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/lib/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/dialog.js"></script>
+    <script src="__PUBLIC__/js/admin/login.js"></script>
+    <script src="__PUBLIC__/lib/bootstrap/js/bootstrap.js"></script>
+
+
+    <script>
+        var SCOPE = {
+            'post_url' : "{:U('Admin/Login/Login')}",
+            'jump_url' : "{:U('Admin/Index/index')}",
+        }
+    </script>
+
+  </body>
+</html>
+
+

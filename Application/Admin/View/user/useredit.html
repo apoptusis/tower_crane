@@ -1,0 +1,93 @@
+<include file="index/header" />
+<include file="index/nav" />
+
+<!--修改用户-->
+
+<div class="content">
+
+    <div class="header">
+
+        <h1 class="page-title">编辑用户</h1>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="{:U('Admin/Index/index')}">系统管理</a> <span class="divider">/</span></li>
+        <li><a href="{:U('Admin/User/userList')}">用户管理</a> <span class="divider">/</span></li>
+        <li class="active">编辑用户</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <div class="btn-toolbar">
+                <!--<button class="btn btn-primary"><i class="icon-save"></i> 保存修改</button>-->
+                <div class="btn-group">
+                </div>
+            </div>
+            <div class="well">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">必填</a></li>
+                    <li><a href="#profile" data-toggle="tab">详细资料</a></li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane active in" id="home">
+                        <form id="tower-form">
+                            <label>用户名</label>
+                            <input type="text" class="input-xlarge" value="{$data.username}" name="username">
+                            <!--<label>密码</label>-->
+                            <!--<input type="password" class="input-xlarge" value="" name="password">-->
+                            <label>真实姓名</label>
+                            <input type="text" class="input-xlarge" value="{$data.realname}" name="realname">
+                            <label>邮箱地址</label>
+                            <input type="text" class="input-xlarge" value="{$data.email}" name="email">
+                            <label>授权码</label>
+                            <input type="text" class="input-xlarge" value="{$data.auth_code}" name="auth_code">
+                            <input type="hidden" value="{$data.id}" name="id">
+                        </form>
+
+                    </div>
+                    <div class="tab-pane fade" id="profile">
+                        <form id="tower-form2">
+                            <label>公司名</label>
+                            <input type="text" class="input-xlarge" value="{$data.company}" name="company">
+                            <label>联系电话</label>
+                            <input type="text" class="input-xlarge" value="{$data.phone}" name="phone">
+                            <label>联系地址</label>
+                            <input type="text" class="input-xlarge" value="{$data.address}" name="address">
+                        </form>
+                    </div>
+                    <div>
+                        <button id="button-submit" type="button" class="btn btn-primary">修改</button>
+                        <button id="button-cancel" type="button" class="btn">取消</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <footer>
+                <hr>
+            </footer>
+
+        </div>
+    </div>
+</div>
+<script src="__PUBLIC__/lib/bootstrap/js/bootstrap.js"></script>
+<script src="__PUBLIC__/lib/jquery-1.8.1.min.js"></script>
+<script src="__PUBLIC__/lib/layer/layer.js"></script>
+<script src="__PUBLIC__/js/dialog.js"></script>
+<script src="__PUBLIC__/js/admin/common.js"></script>
+<script>
+    var SCOPE = {
+        'post_url' : "{:U('Admin/User/userAdd')}",
+        'jump_url' : "{:U('Admin/User/userList')}",
+    };
+</script>
+
+</body>
+</html>
+
+
+

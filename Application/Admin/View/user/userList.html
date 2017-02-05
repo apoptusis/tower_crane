@@ -1,0 +1,107 @@
+<include file="index/header" />
+<include file="index/nav" />
+
+
+
+<!--用户管理内容-->
+    <div class="content">
+        
+        <div class="header">
+            
+            <h1 class="page-title">用户管理</h1>
+        </div>
+        
+                <ul class="breadcrumb">
+            <li><a href="{:U('Admin/Index/index')}">系统管理</a> <span class="divider">/</span></li>
+            <li class="active">用户管理</li>
+        </ul>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                    
+<div class="btn-toolbar">
+    <form id="tower-form" enctype="multipart/form-data" method="post" action="{:U('Admin/UserExcel/import')}">
+        <button id="button-export" type="button" class="btn btn-primary" style="margin:10px 20px 10px 0px">
+            <i class="icon-download"></i> 导出Excel</button>
+        <button id="button-import" type="submit" class="btn btn-primary" style="margin:10px 20px 10px 0px">
+            <i class="icon-upload"></i> 导入Excel</button>
+        <input id="file_upload" type="file" name="excel"  class="filestyle" data-input="false" />
+    </form>
+    <button id="button-add" class="btn btn-primary"><i class="icon-plus"></i> 添加新用户</button>
+
+</div>
+<div class="well">
+    <table class="table table-hover" >
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>用户名</th>
+          <th>真实姓名</th>
+          <th>邮箱地址</th>
+          <th>公司名称</th>
+          <th>联系地址</th>
+          <th>用户权限</th>
+
+            <th style="width: 26px;">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      <?php $i=1 ?>
+        <foreach name="list" item="list">
+            <tr>
+                <td><?php echo $i;?></td>
+                <td>{$list.username}</td>
+                <td>{$list.realname}</td>
+                <td>{$list.email}</td>
+                <td>{$list.company}</td>
+                <td>{$list.address}</td>
+                <td>{$list.status}</td>
+                <td>
+                    <a href="/tower_crane/index.php/Admin/User/userEdit/id/{$list.id}"><i class="icon-pencil"></i></a>
+                    <a href="#"><i class="icon-remove" attr-id="{$list.id}"></i></a>
+                </td>
+                <?php $i++?>
+            </tr>
+        </foreach>
+
+      </tbody>
+    </table>
+</div>
+
+<!--分页-->
+<div class="manu">{$page}</div>
+
+
+
+<footer>
+<hr>
+</footer>
+                    
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="__PUBLIC__/lib/bootstrap/js/bootstrap.js"></script>
+<script src="__PUBLIC__/lib/jquery-1.8.1.min.js"></script>
+<script src="__PUBLIC__/lib/layer/layer.js"></script>
+<script src="__PUBLIC__/js/dialog.js"></script>
+<script src="__PUBLIC__/js/admin/common.js"></script>
+
+
+
+<script>
+    var SCOPE = {
+        'add_url' : "{:U('Admin/User/userAdd')}",
+        'changeStatus_url' : "{:U('Admin/User/userBan')}",
+        'export_url' : "{:U('Admin/UserExcel/export')}",
+        'ajax_upload_swf' : "__PUBLIC__/lib/uploadify/uploadify.swf",
+        'ajax_upload_url' : "{:U('Admin/Excel/import')}",
+    };
+</script>
+</body>
+</html>
+
+
+

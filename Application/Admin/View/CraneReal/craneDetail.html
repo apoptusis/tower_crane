@@ -1,0 +1,109 @@
+<include file="index/header" />
+<include file="index/nav" />
+
+    <!--右 侧 内 容-->
+    <div class="content">
+
+        <div class="header">
+            <h1 class="page-title">塔机分布</h1>
+        </div>
+        
+        <ul class="breadcrumb">
+            <li><a href="{:U('Admin/Index/index')}">首页</a> <span class="divider">/</span></li>
+            <li><a href="{:U('Admin/CraneReal/craneList')}">塔机监控</a> <span class="divider">/</span></li>
+            <li class="active">监控详情</li>
+        </ul>
+
+
+        <!--地图-->
+        <div id="widget1container" class="block-body collapse in">
+            <div id="container" style="width:auto; height: 500px;"></div>
+        </div>
+
+<div class="container-fluid">
+
+    <div class="row-fluid">
+        <div class="block span3">
+            <a href="#a" class="block-heading" data-toggle="collapse">塔机信息</a>
+            <div id="a" class="block-body collapse in">
+                <p></p>
+                <p>塔机编号：{$info.crane_id}</p>
+                <p>塔机类型：{$info.type}</p>
+                <p>塔机型号：{$info.model}</p>
+                <p>SIM卡号：{$info.sim_num}</p>
+                <p>终端号：{$info.term_num}</p>
+            </div>
+        </div>
+
+
+    <div class="block span3">
+        <a href="#b" class="block-heading" data-toggle="collapse">运行时间</a>
+        <div id="b" class="block-body collapse in">
+            <p></p>
+            <p>秩序工作时间：2小时</p>
+            <p>登录时间：12:20PM</p>
+            <p>数据更新时间：{$data['0']['update_time']|date='Y年m月d日 H:m:s',###}</p>
+            <p>当前状态：{$data['0']['update_time']|IsOnline}</p>
+        </div>
+    </div>
+
+    <div class="block span3">
+        <a href="#c" class="block-heading" data-toggle="collapse">监控详情</a>
+        <div id="c" class="block-body collapse in">
+            <p></p>
+            <p>当前起重重量：{$data['0']['weight']} t</p>
+            <p>当前边幅幅度：{$data['0']['amplitude']} m</p>
+            <p>当前起重力矩：{$data['0']['force']} Nm</p>
+            <p>当前起升高度：{$data['0']['height']} m</p>
+            <p>当前回转角度:{$data['0']['rotate']}°</p>
+            <p>当前风速：{$data['0']['wind']} m/s</p>
+        </div>
+    </div>
+</div>
+
+
+    <div>
+        <button id="refresh" type="button" class="btn btn-primary pull-right">刷新数据</button>
+    </div>
+
+
+                    <footer>
+                        <hr>
+                    </footer>
+                    
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+var latitude = "{$data['0']['latitude']}";
+var longitude = "{$data['0']['longitude']}";
+var weight = "{$data['0']['weight']}";
+var height = "{$data['0']['height']}";
+var amplitude = "{$data['0']['amplitude']}";
+var rotate = "{$data['0']['rotate']}";
+var wind = "{$data['0']['wind']}";
+</script>
+
+
+<script type="text/javascript">
+//两分钟自动刷新页面
+function fresh_page() {
+    window.location.reload();
+}
+setTimeout('fresh_page()',1000*60*2);
+//刷新按钮
+$('#refresh').on('click', function(){
+    window.location.reload();
+});
+</script>
+
+
+<script src="__PUBLIC__/lib/bootstrap/js/bootstrap.js"></script>
+<script src="__PUBLIC__/js/admin/map.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+[ 2017-02-03T04:13:29+08:00 ] ::1 /tower_crane/index.php/application/home/towercrane/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.133597s ]
+ERR: 无法加载模块:Application
+
