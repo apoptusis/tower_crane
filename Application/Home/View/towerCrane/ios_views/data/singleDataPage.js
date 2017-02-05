@@ -25,6 +25,7 @@ export default class SingleDataPage extends Component {
             amplitude: null,
             rotate: null,
             wind: null,
+            iswarning:null,
             update_time: null,
             maxweight: null,
             maxheight: null,
@@ -106,7 +107,7 @@ export default class SingleDataPage extends Component {
                         <Text style={styles.containerTitle}> 统计 </Text>
                         <View style={styles.info}>
                             <View style={[styles.infoItem,{borderRightWidth:1}]}>
-                                <Text style={styles.infoData}>11 次</Text>
+                                <Text style={styles.infoData}>{this.state.iswarning} 次</Text>
                                 <Text style={styles.infoTitle}>报警次数</Text>
                             </View>
                             <View style={styles.infoItem}>
@@ -174,6 +175,7 @@ export default class SingleDataPage extends Component {
                             amplitude: responseJson.data.amplitude,
                             rotate: responseJson.data.rotate,
                             wind: responseJson.data.wind,
+                            iswarning: responseJson.data.iswarning,
                             update_time: timeStr,
                             maxweight: responseJson.data.maxweight,
                             maxheight: responseJson.data.maxheight,
