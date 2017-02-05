@@ -26,6 +26,12 @@ export default class SingleDataPage extends Component {
             rotate: null,
             wind: null,
             update_time: null,
+            maxweight: null,
+            maxheight: null,
+            maxforce: null,
+            maxamplitude: null,
+            maxrotate: null,
+            maxwind: null,
         };
         this.timer = null;
         this._getSinglePageData();
@@ -55,40 +61,40 @@ export default class SingleDataPage extends Component {
                         <Text style={styles.containerTitle}> 实时数据 </Text>
                         <View style={styles.dataItemContainer}>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={10} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={this.state.weight/this.state.maxweight*100} color={"#3ea8a0"}>
                                     <Text style={styles.data}>{this.state.weight} t</Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 起重重量 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={20} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={this.state.amplitude/this.state.maxamplitude*100} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.amplitude} m </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 变幅幅度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={35} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={this.state.force/this.state.maxforce*100} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.force} N·M </Text>
                                 </PercentageCircle>
-                                <Text style={styles.title}> 起重力矩1 </Text>
+                                <Text style={styles.title}> 起重力矩 </Text>
                             </View>
                         </View>
 
                         <View style={styles.dataItemContainer}>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={35} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={Math.abs(this.state.rotate/this.state.maxrotate*100)} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.rotate} ° </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 回转角度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={40} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={this.state.height/this.state.maxheight*100} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.height} m </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 起升高度 </Text>
                             </View>
                             <View style={styles.item}>
-                                <PercentageCircle radius={50} percent={60} color={"#3ea8a0"}>
+                                <PercentageCircle radius={50} percent={this.state.wind/this.state.maxwind*100} color={"#3ea8a0"}>
                                     <Text style={styles.data}> {this.state.wind} m/s </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 当前风速 </Text>
@@ -169,6 +175,12 @@ export default class SingleDataPage extends Component {
                             rotate: responseJson.data.rotate,
                             wind: responseJson.data.wind,
                             update_time: timeStr,
+                            maxweight: responseJson.data.maxweight,
+                            maxheight: responseJson.data.maxheight,
+                            maxforce: responseJson.data.maxforce,
+                            maxamplitude: responseJson.data.maxamplitude,
+                            maxrotate: responseJson.data.maxrotate,
+                            maxwind: responseJson.data.maxwind,
                         });
                     }
                 }, function () {

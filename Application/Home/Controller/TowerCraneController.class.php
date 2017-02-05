@@ -86,9 +86,15 @@ class towerCraneController extends Controller {
     public function realData(){
         if(IS_POST) {
             $sim_num = I('post.sim_num');
-            $res = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(1)->select();
-            if($res){
-                return show(1, '查询成功', $res[0]);
+//            $sim_num = 13877998855;
+            $realData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(1)->select();
+            $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
+            $model = $modelData[0]['model'];
+            $baseData = D('Baseinfo')->where("model='".$model."'")->select();
+            $data = array_merge($realData[0],$baseData[0]);
+//            var_dump($data);
+            if($realData && $modelData && $baseData){
+                return show(1, '查询成功', $data);
             }else{
                 return show(0, '数据查询失败');
             }
