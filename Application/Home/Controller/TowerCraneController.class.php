@@ -233,6 +233,29 @@ class towerCraneController extends Controller {
         }
     }
 
+    public function changePassword(){
+        if(IS_POST){
+            $username = I('post.username');
+            $newPwd = I('post.newPwd');
+            $newPwdConfirm = I('post.newPwdConfirm');
+            $result = D('User')->create();
+            $message = D('User')->getError();
+            if(!$result){
+                return show(0,$message);
+            }
+            $data = array(
+                'password' => getMd5($newPwd),
+            );
+            $res = D('User')->where('username="'.$username.'"')->save($data);
+            if($res){
+                return show(1, '密码修改成功!');
+            }else{
+                return show(0, '密码修改失败!');
+            }
+        }
+    }
+
+
 
     public function showPassword(){
         echo getMd5('admin1');
