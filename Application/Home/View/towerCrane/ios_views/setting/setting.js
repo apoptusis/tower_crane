@@ -28,7 +28,7 @@ export default class settingPage extends Component {
     }
     render() {
         return (
-            <View style={{flex:1,}}>
+            <View style={{flex:1,backgroundColor: '#f3f4f9',}}>
                 <NavigationBar title={'设置'}/>
                 <ScrollView>
                     <View style={styles.container}>
@@ -38,7 +38,7 @@ export default class settingPage extends Component {
                                    resizeMode='contain'/>
                         </View>
                         <View style={{justifyContent:'center', alignItems: 'center',marginTop:10,marginBottom:20}}>
-                            <Text style={styles.versionText}>v1.0.0</Text>
+                            <Text style={styles.versionText}>版本号1.0.0</Text>
                         </View>
                         <View style={styles.itemContainer}>
                             <TouchableOpacity
@@ -97,6 +97,7 @@ export default class settingPage extends Component {
             </View>
         );
     }
+
     _goPage(component,title) {
         const { navigator } = this.props;
         if(navigator) {
@@ -106,9 +107,12 @@ export default class settingPage extends Component {
             })
         }
     }
+
+    // TODO:'联系我们'组件可以做成一个提交表单页面,用户提交文字和图片,存放在数据库中给后台查询
     _showAbout(){
-        AlertIOS.alert('如有问题,联系', 'abc@.123.com', [{text: '确认'}]);
+        AlertIOS.alert('如有问题请致电', '18673241234', [{text: '确认'}]);
     }
+
     _logout(){
         // 清理掉token
         AsyncStorage.removeItem('tokenId');
@@ -130,8 +134,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         marginTop: 30,
-        marginLeft: 15,
-        marginRight: 15,
     },
     logoContainer: {
         alignItems: 'center',
@@ -150,11 +152,15 @@ const styles = StyleSheet.create({
         width: 25,
         height: 25
     },
+    itemContainer: {
+        backgroundColor: '#fff',
+    },
     item: {
+        paddingLeft: 15,
         flexDirection: 'row',
         height: 50,
         borderBottomWidth:1,
-        borderColor: '#efefef',
+        borderColor: 'rgba(0,0,0,0.1)',
         alignItems: 'center',
     },
     text: {
