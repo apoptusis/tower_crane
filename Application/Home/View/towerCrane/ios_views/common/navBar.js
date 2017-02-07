@@ -61,12 +61,12 @@ const styles = StyleSheet.create({
     },
     container: {
         marginTop:16,
-        height: 48,
+        height: 40,
         backgroundColor: "#63a6a1",
         alignItems: 'center',
     },
     iconContainer: {
-        top: 13,
+        top: 10,
         flex: 1,
         flexDirection: 'row',
         alignSelf: 'flex-start',
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
         color: '#fff',
     },
     leftText: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: '500',
         color: '#fff',
     },
@@ -90,13 +90,13 @@ const styles = StyleSheet.create({
         top: -10,
     },
     title: {
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: '400',
         color: '#fff',
     },
     singleTitleContainer: {
         flex: 1,
-        top: 14,
+        top: 10,
     },
 });
 
