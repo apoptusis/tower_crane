@@ -85,7 +85,7 @@ export default class identify extends Component {
                     if(navigator) {
                         navigator.push({
                             name: '修改密码',
-                            component: ChangePassword,
+                            component: hangePassword,
                             params: {
                                 username: that.props.username,
                             }
@@ -96,8 +96,6 @@ export default class identify extends Component {
             function (err) {
                 alert(err);
             });
-
-
     }
 
     _resend() {
