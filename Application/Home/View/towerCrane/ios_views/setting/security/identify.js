@@ -85,7 +85,7 @@ export default class identify extends Component {
                     if(navigator) {
                         navigator.push({
                             name: '修改密码',
-                            component: hangePassword,
+                            component: ChangePassword,
                             params: {
                                 username: that.props.username,
                             }

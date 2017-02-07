@@ -7,13 +7,17 @@ import {
     TouchableOpacity,
     AlertIOS,
     TextInput,
+    AsyncStorage,
 } from 'react-native';
 import Util from '../../common/util'
 import NavigationBar from '../../common/navBar'
+import loginPage from '../../loginPage'
 
 export default class changePassword extends Component {
     constructor(props){
         super(props);
+        this.newPwd = '';
+        this.newPwdConfirm = '';
     }
 
     render() {
@@ -40,7 +44,7 @@ export default class changePassword extends Component {
                                 selectionColor="#6a617c"
                                 placeholderTextColor="#999"
                                 onChangeText={(text) => {
-                                    this.identifyNumInput = text}}
+                                    this.newPwd = text}}
                             />
                         </View>
                         <View style={styles.inputItem}>
@@ -52,13 +56,13 @@ export default class changePassword extends Component {
                                 selectionColor="#6a617c"
                                 placeholderTextColor="#999"
                                 onChangeText={(text) => {
-                                    this.identifyNumInput = text}}
+                                    this.newPwdConfirm = text}}
                             />
                         </View>
                     </View>
                     <View style={styles.buttonContainer}>
                         <View style={styles.button}>
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={this._changePassword.bind(this)}>
                                 <Text style={styles.buttonText}>确定</Text>
                             </TouchableOpacity>
                         </View>
@@ -73,6 +77,40 @@ export default class changePassword extends Component {
             navigator.pop();
         }
     }
+    _changePassword() {
+        let that = this;
+        let formData = new FormData();
+        formData.append("username",this.props.username);
+        formData.append("newPwd",this.newPwd);
+        formData.append("newPwdConfirm",this.newPwdConfirm);
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/changePassword";
+        Util.post(url, formData,
+            function (responseJson) {
+                if(responseJson.status === 0) {
+                    AlertIOS.alert('失败！', responseJson.message, [{text: '确认'}]);
+                }
+                if(responseJson.status === 1) {
+                    AlertIOS.alert('请重新登录', responseJson.message,  [{text: '确认'}]);
+                    // 清理掉token
+                    AsyncStorage.removeItem('tokenId');
+                    // 跳转到登录页面
+                    const { navigator } = that.props;
+                    if(navigator) {
+                        const { navigator } = that.props;
+                        if(navigator) {
+                            navigator.push({
+                                name: '登录页',
+                                component: loginPage,
+                            })
+                        }
+                    }
+                }
+            },
+            function (err) {
+                alert(err);
+            });
+    }
+
 }
 const styles = StyleSheet.create({
     container: {
