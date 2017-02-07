@@ -98,7 +98,10 @@ export default class indexPage extends Component {
                 view = <DataListPage navigator={this.props.navigator}/>;
                 break;
             case 'setting':
-                view = <SettingPage navigator={this.props.navigator}/>;
+                view = <SettingPage
+                    navigator={this.props.navigator}
+                    username={this.props.username}
+                />;
                 break;
             default :
                 view = <MapPage/>;
@@ -108,6 +111,7 @@ export default class indexPage extends Component {
     }
 
     _isLogin() {
+        // alert(this.props.username);
         // 判断是否登录：检查AsyncStorage里是否有token
         AsyncStorage.getItem('tokenId')
             .then((tokenId) => {

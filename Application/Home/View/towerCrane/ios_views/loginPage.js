@@ -92,14 +92,17 @@ export default class loginPage extends Component {
                 }
                 if(responseJson.status === 1){
                     // 将后端返回的data值存入AsyncStorage，名为tokenID
-                    // alert(responseJson.data);
-                    AsyncStorage.setItem('tokenId', JSON.stringify(responseJson.data));
+                    // alert(responseJson.data.username);
+                    AsyncStorage.setItem('tokenId', JSON.stringify(responseJson.data.token));
                     // 跳转到首页
                     const { navigator } = this.props;
                     if(navigator) {
                         navigator.push({
                             name: '主页',
                             component: indexPage,
+                            params: {
+                                username: responseJson.data.username,
+                            }
                         })
                     }
                 }
