@@ -82,17 +82,18 @@ export default class identify extends Component {
                     AlertIOS.alert('失败！', responseJson.message, [{text: '确认'}]);
                 }
                 if(responseJson.status === 1) {
-                    AlertIOS.alert('成功！', responseJson.message, [{text: '确认'}]);
-                    const { navigator } = that.props;
-                    if(navigator) {
-                        navigator.push({
-                            name: '修改密码',
-                            component: ChangePassword,
-                            params: {
-                                username: that.props.username,
-                            }
-                        })
-                    }
+                    AlertIOS.alert(responseJson.message, '', [{text: '确认',onPress:()=>{
+                        const { navigator } = that.props;
+                        if(navigator) {
+                            navigator.push({
+                                name: '修改密码',
+                                component: ChangePassword,
+                                params: {
+                                    username: that.props.username,
+                                }
+                            })
+                        }
+                    },}]);
                 }
             },
             function (err) {

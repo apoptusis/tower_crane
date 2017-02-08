@@ -102,24 +102,27 @@ export default class getEmailIdentifyNum extends Component {
                     that.setState({
                         identifyNum : responseJson.data.identifyNum,
                     });
+                    AlertIOS.alert('发送成功！', responseJson.message, [{text: '确认',onPress: ()=>{
+                        // 跳转到验证页面
+                        const { navigator } = that.props;
+                        if(navigator) {
+                            navigator.push({
+                                name: '请输入验证码',
+                                component: Identify,
+                                params: {
+                                    encryptEmail: that.state.encryptEmail,
+                                    email: that.state.email,
+                                    username: that.props.username,
+                                }
+                            })
+                        }
+                    },}]);
+
                 }
             },
             function (err) {
                 alert(err);
             });
-        // 跳转到验证页面
-        const { navigator } = this.props;
-        if(navigator) {
-            navigator.push({
-                name: '请输入验证码',
-                component: Identify,
-                params: {
-                    encryptEmail: this.state.encryptEmail,
-                    email: this.state.email,
-                    username: this.props.username,
-                }
-            })
-        }
     }
 }
 
