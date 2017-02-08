@@ -94,24 +94,25 @@ export default class changePassword extends Component {
                     AlertIOS.alert('失败！', responseJson.message, [{text: '确认'}]);
                 }
                 if(responseJson.status === 1) {
-                    AlertIOS.alert(responseJson.message, '请重新登录', [{text: '确认'}]);
-                    // 清理掉storageData
-                    storage.remove({
-                        key: 'storageData'
-                    }).
-                    then(()=>{
-                        // 跳转到登录页面
-                        const { navigator } = that.props;
-                        if(navigator) {
+                    AlertIOS.alert(responseJson.message, '请重新登录', [{text: '确认',onPress:()=>{
+                        // 清理掉storageData
+                        storage.remove({
+                            key: 'storageData'
+                        }).
+                        then(()=>{
+                            // 跳转到登录页面
                             const { navigator } = that.props;
                             if(navigator) {
-                                navigator.push({
-                                    name: '登录页',
-                                    component: loginPage,
-                                })
+                                const { navigator } = that.props;
+                                if(navigator) {
+                                    navigator.push({
+                                        name: '登录页',
+                                        component: loginPage,
+                                    })
+                                }
                             }
-                        }
-                    });
+                        });
+                    },}]);
                 }
             },
             function (err) {
