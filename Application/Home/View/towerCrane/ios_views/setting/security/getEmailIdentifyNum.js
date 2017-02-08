@@ -15,11 +15,8 @@ export default class getEmailIdentifyNum extends Component {
     constructor(props){
         super(props);
         this.state = {
-            email : null,
-            encryptEmail: null,
             identifyNum: null,
         };
-        this._getEmail();
     }
 
     render() {
@@ -35,7 +32,7 @@ export default class getEmailIdentifyNum extends Component {
                         <Text style={styles.infoText}>为了保证你的账户安全,请验证身份。验证成功后进行下一步操作。</Text>
                     </View>
                     <View style={styles.email}>
-                        <Text style={styles.emailText}>{this.state.encryptEmail}</Text>
+                        <Text style={styles.emailText}>{this.props.encryptEmail}</Text>
                     </View>
                     <View style={styles.buttonContainer}>
                         <TouchableOpacity
@@ -62,34 +59,10 @@ export default class getEmailIdentifyNum extends Component {
         }
     }
 
-    _getEmail(){
-        // 利用上一页面传来的username查找用户email
-        let that = this;
-        let formData = new FormData();
-        formData.append("username",this.props.username);
-        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/findUserInfo";
-        // 查询数据函数
-        Util.post(url, formData,
-            function (responseJson) {
-                if(responseJson.status === 0) {
-                    AlertIOS.alert('查询失败！', responseJson.message, [{text: '确认'}]);
-                }
-                if(responseJson.status === 1) {
-                    that.setState({
-                        email : responseJson.data.email,
-                        encryptEmail: responseJson.data.email.split("@")[0].replace(/.{4}$/, '****')+'@'+responseJson.data.email.split("@")[1],
-                    });
-                }
-            },
-            function (err) {
-                alert(err);
-            });
-    }
-
     _getIdentifyNum(){
         let that = this;
         let formData = new FormData();
-        formData.append("email",this.state.email);
+        formData.append("email",this.props.email);
         formData.append("username",this.props.username);
         let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/sendEmail";
         // 发送email地址和用户名,得到验证码
