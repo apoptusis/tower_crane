@@ -23,7 +23,7 @@ export default class identify extends Component {
             <View style={{flex: 1,}}>
                 <NavigationBar
                     title={'请输入邮箱验证码'}
-                    leftText={'验证'}
+                    leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
 

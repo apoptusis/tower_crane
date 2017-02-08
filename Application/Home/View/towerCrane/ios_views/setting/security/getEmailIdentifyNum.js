@@ -27,7 +27,7 @@ export default class getEmailIdentifyNum extends Component {
             <View style={{flex:1}}>
                 <NavigationBar
                     title={'安全验证'}
-                    leftText={'账户'}
+                    leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.container}>

@@ -25,7 +25,7 @@ export default class changePassword extends Component {
             <View style={{flex:1}}>
                 <NavigationBar
                     title={'修改账号密码'}
-                    leftText={'验证'}
+                    leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.container}>
