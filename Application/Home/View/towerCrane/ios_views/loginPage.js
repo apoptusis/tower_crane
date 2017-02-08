@@ -54,6 +54,7 @@ export default class loginPage extends Component {
                             autoCorrect={false}
                             selectionColor="#6a617c"
                             placeholderTextColor="#6a617c"
+                            clearButtonMode="while-editing"
                             onChangeText={(text) => {
                                 this.username = text}}
                         />
@@ -70,6 +71,7 @@ export default class loginPage extends Component {
                             autoCapitalize="none"
                             selectionColor="#6a617c"
                             placeholderTextColor="#6a617c"
+                            clearButtonMode="while-editing"
                             onChangeText={(text) => {
                                 this.password = text}}
                         />
