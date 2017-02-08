@@ -23,7 +23,7 @@ export default class identify extends Component {
             <View style={{flex: 1,}}>
                 <NavigationBar
                     title={'请输入邮箱验证码'}
-                    leftText={'1'}
+                    leftText={'验证'}
                     leftAction={ this._backToFront.bind(this) }
                 />
 
@@ -40,6 +40,8 @@ export default class identify extends Component {
                             autoCapitalize="none"
                             selectionColor="#6a617c"
                             placeholderTextColor="#6a617c"
+                            keyboardType="number-pad"
+                            clearButtonMode="while-editing"
                             onChangeText={(text) => {
                                 this.identifyNumInput = text}}
                         />
@@ -150,6 +152,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     input: {
+        paddingLeft: 5,
         height: 40,
         width: Util.size.width-32,
         borderWidth: 1,

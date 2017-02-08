@@ -27,7 +27,7 @@ export default class getEmailIdentifyNum extends Component {
             <View style={{flex:1}}>
                 <NavigationBar
                     title={'安全验证'}
-                    leftText={'1'}
+                    leftText={'账户'}
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.container}>
@@ -99,7 +99,6 @@ export default class getEmailIdentifyNum extends Component {
                     AlertIOS.alert('发送失败！', responseJson.message, [{text: '确认'}]);
                 }
                 if(responseJson.status === 1) {
-                    AlertIOS.alert('发送成功！', responseJson.message, [{text: '确认'}]);
                     that.setState({
                         identifyNum : responseJson.data.identifyNum,
                     });

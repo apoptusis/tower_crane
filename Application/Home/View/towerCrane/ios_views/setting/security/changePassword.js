@@ -25,7 +25,7 @@ export default class changePassword extends Component {
             <View style={{flex:1}}>
                 <NavigationBar
                     title={'修改账号密码'}
-                    leftText={'1'}
+                    leftText={'验证'}
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.container}>
@@ -43,6 +43,7 @@ export default class changePassword extends Component {
                                 autoCapitalize="none"
                                 selectionColor="#6a617c"
                                 placeholderTextColor="#999"
+                                clearButtonMode="while-editing"
                                 onChangeText={(text) => {
                                     this.newPwd = text}}
                             />
@@ -55,6 +56,7 @@ export default class changePassword extends Component {
                                 autoCapitalize="none"
                                 selectionColor="#6a617c"
                                 placeholderTextColor="#999"
+                                clearButtonMode="while-editing"
                                 onChangeText={(text) => {
                                     this.newPwdConfirm = text}}
                             />
@@ -139,6 +141,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     input: {
+        paddingLeft: 5,
         height: 40,
         width: Util.size.width-32,
         borderColor: 'rgba(0,0,0,0.1)',

@@ -13,7 +13,6 @@ var moreIcon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPm
 export default class security extends Component {
     constructor(props){
         super(props);
-        // alert(this.props.username);
     }
 
     render() {

@@ -128,10 +128,9 @@ export default class settingPage extends Component {
             const { navigator } = this.props;
             if(navigator) {
                 navigator.push({
-                    name: 'title',
+                    name: title,
                     component: component,
                     params: {
-                        // 去掉username中的""号
                         username: JSON.parse(ret.username),
                     }
                 })
