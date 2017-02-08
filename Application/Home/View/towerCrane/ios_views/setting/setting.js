@@ -145,36 +145,40 @@ export default class settingPage extends Component {
     }
 
     _logout(){
-        // 清除后端cookie
-        let that = this;
-        let formData = new FormData();
-        formData.append("action",'clearCookie');
-        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/logout";
-        Util.post(url, formData,
-            function(responseJson) {
-                if(responseJson.status === 1) {
-                    // 清理掉storageData中的数据
-                    storage.remove({
-                        key: 'storageData'
-                    }).
-                    then(()=>{
-                        // 跳转到登录页面
-                        const { navigator } = that.props;
-                        if(navigator) {
-                            const { navigator } = that.props;
-                            if(navigator) {
-                                navigator.push({
-                                    name: '登录页',
-                                    component: loginPage,
-                                })
-                            }
+        AlertIOS.alert('确定退出?','', [{text: '取消'}, {text: '确定',
+            onPress: ()=>{
+                // 清除后端cookie
+                let that = this;
+                let formData = new FormData();
+                formData.append("action",'clearCookie');
+                let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/logout";
+                Util.post(url, formData,
+                    function(responseJson) {
+                        if(responseJson.status === 1) {
+                            // 清理掉storageData中的数据
+                            storage.remove({
+                                key: 'storageData'
+                            }).
+                            then(()=>{
+                                // 跳转到登录页面
+                                const { navigator } = that.props;
+                                if(navigator) {
+                                    const { navigator } = that.props;
+                                    if(navigator) {
+                                        navigator.push({
+                                            name: '登录页',
+                                            component: loginPage,
+                                        })
+                                    }
+                                }
+                            });
                         }
+                    },
+                    function(err){
+                        AlertIOS.alert('失败！', err, [{text: '确认'}]);
                     });
-                }
-            },
-            function(err){
-                AlertIOS.alert('失败！', err, [{text: '确认'}]);
-            });
+                },}
+            ]);
     }
 }
 
