@@ -11,11 +11,9 @@ import {
 } from 'react-native';
 import WView from '../common/WView';
 import Util from '../common/util';
-import historyDataPage from './historyData'
 import NavigationBar from '../common/navBar';
 import PercentageCircle from '../common/circle';
 
-// TODO:PercentageCircle组件似乎存在显示错误的问题
 export default class SingleDataPage extends Component {
     constructor(props) {
         super(props);
@@ -41,6 +39,7 @@ export default class SingleDataPage extends Component {
         this.timer = null;
         this._getSinglePageData();
     }
+
     render() {
         return (
             <View style={{flex:1,backgroundColor: '#f3f4f9',}}>
