@@ -72,20 +72,6 @@ export default class indexPage extends Component {
                 >
                     {this._renderView('setting')}
                 </TabBarIOS.Item>
-
-                <TabBarIOS.Item
-                    title="登录"
-                    icon={{url: img3_base64, scale:5}}
-                    onPress={ () => {
-                        this.props.navigator.push({
-                            component: loginPage,
-                            title: '登录页面',
-                            navigationBarHidden: true,
-                        });
-                    }}
-                    selected={this.state.selectedTab === 'login'}
-                >
-                </TabBarIOS.Item>
             </TabBarIOS>
         );
     }
