@@ -132,7 +132,7 @@ export default class settingPage extends Component {
                     component: component,
                     params: {
                         // 去掉username中的""号
-                        username: ret.username.replace(/^\"|\"$/g,''),
+                        username: JSON.parse(ret.username),
                     }
                 })
             }

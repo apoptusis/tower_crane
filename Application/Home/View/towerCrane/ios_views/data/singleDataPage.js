@@ -149,26 +149,9 @@ export default class SingleDataPage extends Component {
 
 
                     </View>
-                    {/*<View style={styles.button} >*/}
-                        {/*<TouchableOpacity onPress={this._goHistoryDataPage.bind(this,this.props.sim_num)}>*/}
-                            {/*<Text style={styles.buttonText}> 历史数据 </Text>*/}
-                        {/*</TouchableOpacity>*/}
-                    {/*</View>*/}
                 </ScrollView>
             </View>
         );
-    }
-    _goHistoryDataPage(sim_num){
-        const { navigator } = this.props;
-        if(navigator) {
-            navigator.push({
-                name: 'model',
-                component: historyDataPage,
-                params: {
-                    sim_num: sim_num,
-                }
-            })
-        }
     }
 
     _backToFront (){

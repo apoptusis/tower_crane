@@ -100,25 +100,36 @@ class DataListPage extends Component {
     _getDataList() {
         let that = this;
         let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-        let formData = new FormData();
-        formData.append("action",'getDataList');
         let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/dataList";
-        Util.post(url, formData,
-            function(responseJson) {
-                if(responseJson.status === 0) {
-                    AlertIOS.alert('查询失败！', responseJson.message, [{text: '确认'}]);
-                }
-                if(responseJson.status === 1) {
-                    // alert(responseJson.data);
-                    that.setState({
-                        dataSource: ds.cloneWithRows(responseJson.data),
-                    });
-                }
-            },
-            // DeBug:PHP中使用var_dump()进行调试时，会使得post请求失败
-            function(){
-                AlertIOS.alert('查询失败！', '数据请求异常，请尝试重新登录', [{text: '确认'}]);
+        let formData = new FormData();
+
+        storage.load({
+            key: 'storageData',
+            autoSync: true,
+            syncInBackground: true,
+        }).then(ret => {
+            formData.append("tokenId",JSON.parse(ret.tokenId));
+            Util.post(url, formData,
+                function(responseJson) {
+                    if(responseJson.status === 0) {
+                        AlertIOS.alert('查询失败！', responseJson.message, [{text: '确认'}]);
+                    }
+                    if(responseJson.status === 1) {
+                        // alert(responseJson.data);
+                        that.setState({
+                            dataSource: ds.cloneWithRows(responseJson.data),
+                        });
+                    }
+                },
+                function(){
+                    AlertIOS.alert('查询失败！', '数据请求异常，请尝试重新登录', [{text: '确认'}]);
+                })
         })
+
+
+
+
+
     }
 
 
