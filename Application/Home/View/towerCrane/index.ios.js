@@ -17,7 +17,10 @@ export default class towerCrane extends Component {
             <Navigator
                 initialRoute={{ name: defaultName, component: defaultComponent }}
                 configureScene={(route) => {
-                    return Navigator.SceneConfigs.PushFromRight;
+                    if(route.component === loginPage){
+                        return Navigator.SceneConfigs.FadeAndroid;
+                    }
+                        return Navigator.SceneConfigs.PushFromRight;
                 }}
                 renderScene={(route, navigator) => {
                     let Component = route.component;
