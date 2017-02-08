@@ -71,12 +71,14 @@ export default class changePassword extends Component {
             </View>
         );
     }
+
     _backToFront() {
         const { navigator } = this.props;
         if(navigator) {
             navigator.pop();
         }
     }
+
     _changePassword() {
         let that = this;
         let formData = new FormData();
@@ -90,20 +92,24 @@ export default class changePassword extends Component {
                     AlertIOS.alert('失败！', responseJson.message, [{text: '确认'}]);
                 }
                 if(responseJson.status === 1) {
-                    AlertIOS.alert('请重新登录', responseJson.message,  [{text: '确认'}]);
-                    // 清理掉token
-                    AsyncStorage.removeItem('tokenId');
-                    // 跳转到登录页面
-                    const { navigator } = that.props;
-                    if(navigator) {
+                    AlertIOS.alert(responseJson.message, '请重新登录', [{text: '确认'}]);
+                    // 清理掉storageData
+                    storage.remove({
+                        key: 'storageData'
+                    }).
+                    then(()=>{
+                        // 跳转到登录页面
                         const { navigator } = that.props;
                         if(navigator) {
-                            navigator.push({
-                                name: '登录页',
-                                component: loginPage,
-                            })
+                            const { navigator } = that.props;
+                            if(navigator) {
+                                navigator.push({
+                                    name: '登录页',
+                                    component: loginPage,
+                                })
+                            }
                         }
-                    }
+                    });
                 }
             },
             function (err) {

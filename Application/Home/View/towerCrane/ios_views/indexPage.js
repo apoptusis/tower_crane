@@ -7,6 +7,7 @@ import {
     TabBarIOS,
     AsyncStorage,
 } from 'react-native';
+
 import MapPage from './map/map';
 import DataListPage from './data/dataList';
 import SettingPage from './setting/setting';
@@ -21,9 +22,10 @@ export default class indexPage extends Component {
         super(props);
         this.state = {
             selectedTab: 'map',
-            token: '',
+            token: null,
+            username: null,
         };
-        this._isLogin();
+        // this._isLogin.bind(this);
     }
 
     render() {
@@ -100,7 +102,6 @@ export default class indexPage extends Component {
             case 'setting':
                 view = <SettingPage
                     navigator={this.props.navigator}
-                    username={this.props.username}
                 />;
                 break;
             default :
@@ -110,29 +111,30 @@ export default class indexPage extends Component {
         return view;
     }
 
-    _isLogin() {
-        // alert(this.props.username);
-        // 判断是否登录：检查AsyncStorage里是否有token
-        AsyncStorage.getItem('tokenId')
-            .then((tokenId) => {
-                if (tokenId) {
-                    this.setState({
-                        token: JSON.parse(tokenId)
-                    });
+    componentDidMount() {
+        storage.load({
+            key: 'storageData',
+            autoSync: true,
+            syncInBackground: true,
+        }).then(ret => {
+            this.setState({
+                username: ret.username,
+                token: ret.tokenId,
+            });
+        }).catch(err => {
+            // alert(err.message,err.name);
+        }).then(()=>{
+            if (!this.state.token){
+                const { navigator } = this.props;
+                if(navigator) {
+                    navigator.push({
+                        name: '登录页',
+                        component: loginPage,
+                    })
                 }
-            })
-            // 没有登录跳转到登录页
-            .then(() => {
-                if (!this.state.token){
-                    const { navigator } = this.props;
-                    if(navigator) {
-                        navigator.push({
-                            name: '登录页',
-                            component: loginPage,
-                        })
-                    }
-                }
-            })
+            }
+        }).done();
     }
+
 }
 module.exports = indexPage;

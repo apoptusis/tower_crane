@@ -7,6 +7,7 @@ import {
     Navigator,
 } from 'react-native';
 import indexPage from './ios_views/indexPage';
+import loginPage from './ios_views/loginPage'
 
 export default class towerCrane extends Component {
     render() {
