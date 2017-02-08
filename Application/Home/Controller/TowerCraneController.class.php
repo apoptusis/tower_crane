@@ -4,6 +4,9 @@ use Think\Controller;
 import('Vendor.PHPMailer.PHPMailer');
 import('Vendor.PHPMailer.Smtp');
 class towerCraneController extends Controller {
+
+/* * * * * * * * * * * * * * * * * * 登录登出模块: 处理用户登录和退出登录 * * * * * * * * * * * * * * * * * */
+
     public function login(){
         if(IS_POST){
             $username = trim(I('post.username'));
@@ -35,10 +38,19 @@ class towerCraneController extends Controller {
         }
     }
 
+    public function logout(){
+        if(IS_POST && I('post.action')=='clearCookie'){
+            cookie(null);
+            return show(1,'退出成功');
+        }else{
+            return show(0,'非法请求');
+        }
+    }
+
+/* * * * * * * * * * * * * * * * * * 地图定位模块: 负责map模板的渲染和相应的处理数据 * * * * * * * * * * * * * * * * * */
+
     public function map(){
-        if(IS_POST){
-            // TODO：测试代码
-//            $username = 'admin';
+        if(IS_POST && I('post.tokenId')){
             $username = cookie('username');
             $cond = array(
                 'username' => $username,
@@ -59,12 +71,13 @@ class towerCraneController extends Controller {
             }
             return show(1, '查询成功', $data);
         }
-
         $this->display();
     }
 
+/* * * * * * * * * * * * * * * * * * 数据显示模块: 实时数据和历史数据的查询 * * * * * * * * * * * * * * * * * */
+
     public function dataList(){
-        if(IS_POST && I('post.action')=='getDataList'){
+        if(IS_POST && I('post.tokenId')==cookie('tokenId')){
             $username = cookie('username');
             $cond = array(
                 'username' => $username,
@@ -85,14 +98,13 @@ class towerCraneController extends Controller {
                 return show(0, '请联系工作人员进行用户信息和塔机信息的绑定');
             }
         }else{
-            return show(0, '非法请求');
+            return show(0, '用户登录状态异常,请重新登录');
         }
     }
 
     public function realData(){
-        if(IS_POST) {
+        if(IS_POST && I('post.sim_num')) {
             $sim_num = I('post.sim_num');
-//            $sim_num = 18673244444;
             // 查询塔机最新实时数据
             $realData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(1)->select();
             // 统计总报警次数
@@ -155,7 +167,6 @@ class towerCraneController extends Controller {
         }
         $this->display();
     }
-
 
     public function findUserInfo(){
         if(IS_POST) {
