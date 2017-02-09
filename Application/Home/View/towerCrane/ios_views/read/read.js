@@ -13,7 +13,7 @@ import NavigationBar from '../common/navBar';
 import Category from './category';
 import Recommend from './recommend';
 import Search from './search';
-import Topic from './topic';
+import TopSwiper from './topSwiper';
 
 // 分割线Hr组件
 class Hr extends Component {
@@ -36,6 +36,8 @@ class ReadPage extends Component {
                 <Search/>
                 <Hr/>
                 <ScrollView style={styles.container}>
+                    <TopSwiper/>
+                    <Hr/>
                     <Recommend name="年度推荐" navigator={this.props.navigator}/>
                     <Hr/>
                     <Category navigator={this.props.navigator}/>
