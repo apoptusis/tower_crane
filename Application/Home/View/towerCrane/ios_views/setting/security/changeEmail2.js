@@ -62,7 +62,6 @@ export default class changePassword extends Component {
         }
     }
 
-    // TODO: 检查输入的Email格式是否正确
     // 向输入的新邮箱地址中发生验证码
     _sendIdentity() {
         let that = this;
