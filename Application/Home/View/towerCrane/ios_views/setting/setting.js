@@ -163,13 +163,11 @@ export default class settingPage extends Component {
                                 // 跳转到登录页面
                                 const { navigator } = that.props;
                                 if(navigator) {
-                                    const { navigator } = that.props;
-                                    if(navigator) {
-                                        navigator.push({
-                                            name: '登录页',
-                                            component: loginPage,
-                                        })
-                                    }
+                                    navigator.popToTop();
+                                    navigator.push({
+                                        name: '登录页',
+                                        component: loginPage,
+                                    })
                                 }
                             });
                         }

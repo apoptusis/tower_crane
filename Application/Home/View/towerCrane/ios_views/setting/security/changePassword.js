@@ -104,6 +104,7 @@ export default class changePassword extends Component {
                             const { navigator } = that.props;
                             if(navigator) {
                                 const { navigator } = that.props;
+                                navigator.popToTop();
                                 if(navigator) {
                                     navigator.push({
                                         name: '登录页',
