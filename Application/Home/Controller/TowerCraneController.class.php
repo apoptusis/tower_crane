@@ -17,7 +17,7 @@ class towerCraneController extends Controller {
             if(!$password){
                 return show(0,'密码不能为空');
             }
-            $res = D('User')->where('username="'.$username.'"'.'OR '.'phone="'.$username.'"'.'AND '.'password="'.$password.'"')->find();
+            $res = D('User')->where('username="'.$username.'"'.'AND '.'password="'.$password.'"'.'OR '.'phone="'.$username.'"'.'AND '.'password="'.$password.'"')->find();
             if(!$res){
                 return show(0,'密码错误');
             }else{
@@ -28,6 +28,7 @@ class towerCraneController extends Controller {
                     'username' => $res['username'],
                 );
                 cookie('username',$res['username']);
+                cookie('userId',$res['id']);
                 cookie('tokenId',$token);
                 return show(1,'登录成功',$data);
             }
@@ -299,19 +300,54 @@ class towerCraneController extends Controller {
             $username = I('post.username');
             $newPhone = I('post.newPhone');
             $newPhoneConfirm = I('post.newPhoneConfirm');
+            // TODO:自动验证的unique条件对于UPDATE的情况,无论什么值,检验总是说已经存在
             $result = D('User')->create();
             $message = D('User')->getError();
             if(!$result){
                 return show(0,$message);
             }
-            $data = array(
-                'phone' => $newPhone,
-            );
-            $res = D('User')->where('username="'.$username.'"')->save($data);
+            // 手动验证手机号是否已经存在
+            $res = D('User')->where('phone="'.$newPhone.'"')->find();
             if($res){
-                return show(1, '手机号码修改成功!');
+                return show(0,'该手机号已被其他用户绑定!');
             }else{
-                return show(0, '新手机号码不能与旧手机号码相同!');
+                $data = array(
+                    'phone' => $newPhone,
+                );
+                $res1 = D('User')->where('username="'.$username.'"')->save($data);
+                if($res1){
+                    return show(1, '手机号码修改成功!');
+                }else{
+                    return show(0, '手机号码修改失败,请于客服联系!');
+                }
+            }
+        }
+    }
+
+    public function changeUsername(){
+        if(IS_POST){
+            $username = I('post.username');
+            $newUsername = I('post.newUsername');
+            $newUsernameConfirm = I('post.newUsernameConfirm');
+            $result = D('User')->create();
+            $message = D('User')->getError();
+            if(!$result){
+                return show(0,$message);
+            }
+            // 手动验证手机号是否已经存在
+            $res = D('User')->where('username="'.$newUsername.'"')->find();
+            if($res){
+                return show(0,'该用户名已存在!');
+            }else{
+                $data = array(
+                    'username' => $newUsername,
+                );
+                $res = D('User')->where('username="'.$username.'"')->save($data);
+                if($res){
+                    return show(1, '用户名修改成功!');
+                }else{
+                    return show(0, '用户名修改失败,请于客服联系!');
+                }
             }
         }
     }

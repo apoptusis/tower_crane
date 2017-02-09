@@ -13,58 +13,56 @@ import Util from '../../common/util'
 import NavigationBar from '../../common/navBar'
 import loginPage from '../../loginPage'
 
-export default class changePassword extends Component {
+export default class changeUsername extends Component {
     constructor(props){
         super(props);
-        this.newPwd = '';
-        this.newPwdConfirm = '';
+        this.newUsername = '';
+        this.newUsernameConfirm = '';
     }
 
     render() {
         return (
             <View style={{flex:1}}>
                 <NavigationBar
-                    title={'修改账号密码'}
+                    title={'修改用户名'}
                     leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.container}>
                     <View style={styles.infoContainer}>
                         <Text style={styles.infoText}>
-                            设置密码后,使用「手机号+密码」或「用户名+密码」的方式登录
+                            设置用户名与密码后,使用「手机号+密码」或「用户名+密码」的方式登录
                         </Text>
                     </View>
                     <View style={styles.inputContainer}>
                         <View style={styles.inputItem}>
                             <TextInput
                                 style={styles.input}
-                                secureTextEntry={true}
-                                placeholder="输入新密码"
+                                placeholder="输入新的用户名"
                                 autoCapitalize="none"
                                 selectionColor="#6a617c"
                                 placeholderTextColor="#999"
                                 clearButtonMode="while-editing"
                                 onChangeText={(text) => {
-                                    this.newPwd = text}}
+                                    this.newUsername = text}}
                             />
                         </View>
                         <View style={styles.inputItem}>
                             <TextInput
                                 style={styles.input}
-                                secureTextEntry={true}
-                                placeholder="再次输入新密码"
+                                placeholder="再次输入新的用户名"
                                 autoCapitalize="none"
                                 selectionColor="#6a617c"
                                 placeholderTextColor="#999"
                                 clearButtonMode="while-editing"
                                 onChangeText={(text) => {
-                                    this.newPwdConfirm = text}}
+                                    this.newUsernameConfirm = text}}
                             />
                         </View>
                     </View>
                     <View style={styles.buttonContainer}>
                         <View style={styles.button}>
-                            <TouchableOpacity onPress={this._changePassword.bind(this)}>
+                            <TouchableOpacity onPress={this._changePhone.bind(this)}>
                                 <Text style={styles.buttonText}>确定</Text>
                             </TouchableOpacity>
                         </View>
@@ -81,17 +79,17 @@ export default class changePassword extends Component {
         }
     }
 
-    _changePassword() {
+    _changePhone() {
         let that = this;
         let formData = new FormData();
         formData.append("username",this.props.username);
-        formData.append("newPwd",this.newPwd);
-        formData.append("newPwdConfirm",this.newPwdConfirm);
-        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/changePassword";
+        formData.append("newUsername",this.newUsername);
+        formData.append("newUsernameConfirm",this.newUsernameConfirm);
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/changeUsername";
         Util.post(url, formData,
             function (responseJson) {
                 if(responseJson.status === 0) {
-                    AlertIOS.alert('失败！', responseJson.message, [{text: '确认'}]);
+                    AlertIOS.alert('修改失败！', responseJson.message, [{text: '确认'}]);
                 }
                 if(responseJson.status === 1) {
                     AlertIOS.alert(responseJson.message, '请重新登录', [{text: '确认',onPress:()=>{
@@ -161,4 +159,4 @@ const styles = StyleSheet.create({
     },
 });
 
-module.exports = changePassword;
+module.exports = changeUsername;

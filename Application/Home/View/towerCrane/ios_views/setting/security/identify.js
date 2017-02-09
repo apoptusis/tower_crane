@@ -13,6 +13,8 @@ import NavigationBar from '../../common/navBar'
 import ChangePassword from './changePassword'
 import ChangeEmail1 from './changeEmail1'
 import ChangePhone from './changePhone'
+import ChangeUsername from './changeUsername'
+
 
 export default class identify extends Component {
     constructor(props){
@@ -92,6 +94,7 @@ export default class identify extends Component {
                     AlertIOS.alert(responseJson.message, '', [{text: '确认',onPress:()=>{
                         const { navigator } = that.props;
                         if(navigator) {
+                            // 修改密码跳转路由
                             if(that.props.changeWhat === 'password'){
                                 navigator.push({
                                     name: '修改密码',
@@ -101,7 +104,17 @@ export default class identify extends Component {
                                     }
                                 })
                             }
-                            // 在原邮箱地址中发送验证码的跳转路由
+                            // 修改用户名跳转路由
+                            if(that.props.changeWhat === 'username'){
+                                navigator.push({
+                                    name: '修改密码',
+                                    component: ChangeUsername,
+                                    params: {
+                                        username: that.props.username,
+                                    }
+                                })
+                            }
+                            // 修改电话的跳转路由
                             if(that.props.changeWhat === 'phone'){
                                 navigator.push({
                                     name: '修改手机',

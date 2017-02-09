@@ -31,7 +31,7 @@ export default class changePassword extends Component {
                 <View style={styles.container}>
                     <View style={styles.infoContainer}>
                         <Text style={styles.infoText}>
-                            设置手机号与密码后,使用「手机号+密码」或「邮箱+密码」的方式登录
+                            设置手机号与密码后,使用「手机号+密码」或「用户名+密码」的方式登录
                         </Text>
                     </View>
                     <View style={styles.inputContainer}>

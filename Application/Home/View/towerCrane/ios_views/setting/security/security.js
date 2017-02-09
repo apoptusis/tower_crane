@@ -38,7 +38,8 @@ export default class security extends Component {
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.itemContainer1}>
-                    <TouchableOpacity>
+                    <TouchableOpacity
+                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','username')}>
                         <View style={styles.item}>
                             <Text style={styles.text}>用户名</Text>
                             <Text style={styles.data}>{this.props.username}</Text>
