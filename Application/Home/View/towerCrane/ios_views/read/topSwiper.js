@@ -6,16 +6,47 @@ import {
     View,
     Image,
     TouchableOpacity,
+    AlertIOS,
 } from 'react-native';
 import Swiper from 'react-native-swiper';
 import Util from '../common/util';
+import Detail from './detail';
 
 export default class topSwiper extends Component {
     constructor(props){
         super(props);
+        this.state = {
+            data: null,
+        };
+        this._getData();
     }
 
     render(){
+        var data = this.state.data;
+        var view = [];
+        for (var i in data) {
+            i = JSON.parse(i);// 不写这个JSON解析错误
+            let item = (
+                <View
+                    key={i}
+                    style={styles.slide}
+                    title={<Text numberOfLines={1} style={styles.text}>
+                            {data[i].title}
+                        </Text>}>
+                    <TouchableOpacity
+                        onPress={this._goWebPage.bind(this,data[i].page_url)}
+                        activeOpacity={0.8}>
+                        <Image
+                            resizeMode='stretch'
+                            style={styles.image}
+                            source={{url:data[i].img_url}}/>
+                    </TouchableOpacity>
+                </View>
+            );
+            view.push(item);
+        }
+
+
         return (
             <View style={styles.container}>
                 <Swiper style={styles.wrapper}
@@ -25,59 +56,51 @@ export default class topSwiper extends Component {
                         paginationStyle={{bottom: -23, left: null, right: 10}}
                         onMomentumScrollEnd={(e, state, context) => console.log('index:', state.index)}
                         autoplay={true}
-                        autoplayTimeout={5}
-                        loop={true}
-                >
-                    <View
-                        style={styles.slide}
-                        title={<Text numberOfLines={1}>Aussie tourist dies at Bali hotel</Text>}>
-                        <TouchableOpacity>
-                            <Image
-                                resizeMode='stretch'
-                                style={styles.image}
-                                source={{url:'http://img.hb.aicdn.com/f84f7b016afcb8023072d31214d5c39a5d4841f31b9e9-vkPRYz_fw658'}}/>
-                        </TouchableOpacity>
-                    </View>
-                    <View
-                        style={styles.slide}
-                        title={<Text numberOfLines={1}>Big lie behind Nine’s new show</Text>}>
-                        <TouchableOpacity>
-                            <Image
-                                resizeMode='stretch'
-                                style={styles.image}
-                                source={{url:'http://img.mp.itc.cn/upload/20160831/e8d6f5904c2f458db41724bb2d5ca825_th.jpg'}} />
-                        </TouchableOpacity>
-                    </View>
-                    <View
-                        style={styles.slide}
-                        title={<Text numberOfLines={1}>Why Stone split from Garfield</Text>}>
-                        <TouchableOpacity>
-                            <Image
-                                resizeMode='stretch'
-                                style={styles.image}
-                                source={{url:'http://image100.360doc.com/DownloadImg/2016/09/2622/81013355_12'}} />
-                        </TouchableOpacity>
-                    </View>
-                    <View
-                        style={styles.slide}
-                        title={<Text style={styles.text} numberOfLines={1}>Learn from Kim K to land that job</Text>}>
-                        <TouchableOpacity>
-                            <Image
-                                resizeMode='stretch'
-                                style={styles.image}
-                                source={{url:'http://image100.360doc.com/DownloadImg/2016/09/2622/81013355_7'}} />
-                        </TouchableOpacity>
-                    </View>
+                        autoplayTimeout={10}
+                        loop={true}>
+                    {view}
                 </Swiper>
             </View>
         );
+    }
+
+    _goWebPage(url){
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.push({
+                name: '详情',
+                component: Detail,
+                params: {
+                    url: url,
+                }
+            });
+        }
+    }
+
+    _getData() {
+        let that = this;
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?type=topSwiper";
+        Util.get(url,
+            function(responseJson) {
+                if(responseJson.status === 0) {
+                    AlertIOS.alert('数据查询失败！', responseJson.message, [{text: '确认'}]);
+                }
+                if(responseJson.status === 1) {
+                    that.setState({
+                        data: responseJson.data,
+                    });
+                }
+            },
+            function(err){
+                alert(err);
+            });
     }
 }
 
 var styles = StyleSheet.create({
     container: {
         backgroundColor: '#ccc',
-        marginBottom: 26,
+        marginBottom: 20,
         marginTop: -20,
     },
     wrapper: {

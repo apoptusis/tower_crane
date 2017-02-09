@@ -19,7 +19,7 @@ export default class Detail extends Component {
         return (
             <View style={styles.container}>
                 <NavigationBar
-                    title={'实时数据'}
+                    title={'文章详情'}
                     leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />

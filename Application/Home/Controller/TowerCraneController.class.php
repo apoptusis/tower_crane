@@ -165,7 +165,28 @@ class towerCraneController extends Controller {
         $this->display();
     }
 
-/* * * * * * * * * * * * * * * * * * 用户信息模块: 用户信息的的查询 * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * 阅读模块: 文章的查询 * * * * * * * * * * * * * * * * * */
+
+    public function getArticle(){
+        if(I('get.type')=='topSwiper'){
+            $type = 1;
+        }
+        $cond = array(
+            'type' => $type,
+            'status' => 1,
+        );
+        $res = D('Article')->where($cond)->select();
+        if($res){
+            return show(1, '文章查询成功!', $res);
+        }else{
+            return show(0, '文章查询失败!');
+        }
+    }
+
+
+
+
+/* * * * * * * * * * * * * * * * * * 用户信息模块: 用户信息的查询 * * * * * * * * * * * * * * * * * */
 
     public function findUserInfo(){
         if(IS_POST && I('post.tokenId')==cookie('tokenId')){

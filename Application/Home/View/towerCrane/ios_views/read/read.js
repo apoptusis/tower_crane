@@ -36,7 +36,7 @@ class ReadPage extends Component {
                 <Search/>
                 <Hr/>
                 <ScrollView style={styles.container}>
-                    <TopSwiper/>
+                    <TopSwiper navigator={this.props.navigator}/>
                     <Hr/>
                     <Recommend name="年度推荐" navigator={this.props.navigator}/>
                     <Hr/>
