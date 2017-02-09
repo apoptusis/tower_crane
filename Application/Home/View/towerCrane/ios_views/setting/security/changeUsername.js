@@ -99,16 +99,13 @@ export default class changeUsername extends Component {
                         }).
                         then(()=>{
                             // 跳转到登录页面
+                            // TODO:navigator.popToTop()
                             const { navigator } = that.props;
                             if(navigator) {
-                                const { navigator } = that.props;
-                                navigator.popToTop();
-                                if(navigator) {
-                                    navigator.push({
-                                        name: '登录页',
-                                        component: loginPage,
-                                    })
-                                }
+                                navigator.push({
+                                    name: '登录页',
+                                    component: loginPage,
+                                })
                             }
                         });
                     },}]);
