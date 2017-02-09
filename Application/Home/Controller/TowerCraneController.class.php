@@ -17,21 +17,17 @@ class towerCraneController extends Controller {
             if(!$password){
                 return show(0,'密码不能为空');
             }
-            $cond = array(
-                'username' => $username,
-                'password' => $password,
-            );
-            $res = D('User')->where($cond)->find();
+            $res = D('User')->where('username="'.$username.'"'.'OR '.'phone="'.$username.'"'.'AND '.'password="'.$password.'"')->find();
             if(!$res){
                 return show(0,'密码错误');
             }else{
                 // 发给客户端的登录token
-                $token = getMd5($username+time());
+                $token = getMd5($res['username']+time());
                 $data = array(
                     'token' => $token,
-                    'username' => $username,
+                    'username' => $res['username'],
                 );
-                cookie('username',$username);
+                cookie('username',$res['username']);
                 cookie('tokenId',$token);
                 return show(1,'登录成功',$data);
             }

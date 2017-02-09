@@ -49,7 +49,7 @@ export default class loginPage extends Component {
                         />
                         <TextInput
                             style={styles.input}
-                            placeholder="输入邮箱或手机号"
+                            placeholder="输入用户名或手机号"
                             autoCapitalize="none"
                             autoCorrect={false}
                             selectionColor="#6a617c"
