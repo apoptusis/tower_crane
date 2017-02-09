@@ -48,7 +48,8 @@ export default class security extends Component {
                             />
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity
+                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','phone')}>
                     <View style={styles.item}>
                             <Text style={styles.text}>手机号</Text>
                             <Text style={styles.data}>{this.state.phone}</Text>
@@ -60,7 +61,6 @@ export default class security extends Component {
                     </TouchableOpacity>
                     <TouchableOpacity
                         onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','email')}>
-
                     <View style={styles.item}>
                             <Text style={styles.text}>邮箱</Text>
                             <Text style={styles.data}>{this.state.encryptEmail}</Text>
@@ -211,14 +211,20 @@ const styles = StyleSheet.create({
         backgroundColor: '#f3f4f9',
     },
     itemContainer1: {
+        borderTopWidth:1,
+        borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
         marginTop: 15,
     },
     itemContainer2: {
+        borderTopWidth:1,
+        borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
         marginTop: 15,
     },
     itemContainer3: {
+        borderTopWidth:1,
+        borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
         marginTop: 15,
     },

@@ -12,6 +12,7 @@ import Util from '../../common/util'
 import NavigationBar from '../../common/navBar'
 import ChangePassword from './changePassword'
 import ChangeEmail1 from './changeEmail1'
+import ChangePhone from './changePhone'
 
 export default class identify extends Component {
     constructor(props){
@@ -95,6 +96,16 @@ export default class identify extends Component {
                                 navigator.push({
                                     name: '修改密码',
                                     component: ChangePassword,
+                                    params: {
+                                        username: that.props.username,
+                                    }
+                                })
+                            }
+                            // 在原邮箱地址中发送验证码的跳转路由
+                            if(that.props.changeWhat === 'phone'){
+                                navigator.push({
+                                    name: '修改手机',
+                                    component: ChangePhone,
                                     params: {
                                         username: that.props.username,
                                     }

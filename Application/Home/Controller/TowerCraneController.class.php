@@ -187,6 +187,11 @@ class towerCraneController extends Controller {
             // 获取用户名和邮箱
             $username = I('post.username');
             $userEmail = I('post.email');
+            $result = D('User')->create();
+            $message = D('User')->getError();
+            if(!$result){
+                return show(0,$message);
+            }
             // 生成验证码
             $identifyNum = mt_rand(100000, 999999);
             $data = array(
@@ -293,7 +298,27 @@ class towerCraneController extends Controller {
         }
     }
 
-
+    public function changePhone(){
+        if(IS_POST){
+            $username = I('post.username');
+            $newPhone = I('post.newPhone');
+            $newPhoneConfirm = I('post.newPhoneConfirm');
+            $result = D('User')->create();
+            $message = D('User')->getError();
+            if(!$result){
+                return show(0,$message);
+            }
+            $data = array(
+                'phone' => $newPhone,
+            );
+            $res = D('User')->where('username="'.$username.'"')->save($data);
+            if($res){
+                return show(1, '手机号码修改成功!');
+            }else{
+                return show(0, '新手机号码不能与旧手机号码相同!');
+            }
+        }
+    }
 
     public function showPassword(){
         echo getMd5('admin1');
