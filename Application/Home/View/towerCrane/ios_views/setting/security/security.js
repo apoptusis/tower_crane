@@ -73,6 +73,18 @@ export default class security extends Component {
                     </TouchableOpacity>
                 </View>
                 <View style={styles.itemContainer2}>
+                    <TouchableOpacity
+                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','password')}>
+                        <View style={styles.item}>
+                            <Text style={styles.text}>修改密码</Text>
+                            <Image
+                                style={styles.moreIcon}
+                                source={{uri: moreIcon}}
+                            />
+                        </View>
+                    </TouchableOpacity>
+                </View>
+                <View style={styles.itemContainer3}>
                     <TouchableOpacity>
                         <View style={styles.item}>
                             <Text style={styles.text}>身份验证</Text>
@@ -123,18 +135,6 @@ export default class security extends Component {
                                     return <Text style={styles.data}>未激活</Text>;
                                 }
                             })()}
-                            <Image
-                                style={styles.moreIcon}
-                                source={{uri: moreIcon}}
-                            />
-                        </View>
-                    </TouchableOpacity>
-                </View>
-                <View style={styles.itemContainer3}>
-                    <TouchableOpacity
-                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','password')}>
-                        <View style={styles.item}>
-                            <Text style={styles.text}>修改密码</Text>
                             <Image
                                 style={styles.moreIcon}
                                 source={{uri: moreIcon}}
