@@ -47,7 +47,7 @@ export default class settingPage extends Component {
                         <View style={styles.itemContainer}>
                             <TouchableOpacity
                                 onPress={this._goPage.bind(this,Security,'账户与安全')}>
-                                <View style={[styles.item, {borderTopWidth:1}]}>
+                                <View style={styles.item}>
                                     <Image
                                         style={styles.img}
                                         source={{uri: img1}}
@@ -205,13 +205,16 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         backgroundColor: '#fff',
+        borderTopWidth: Util.pixel,
+        borderBottomWidth: Util.pixel,
+        borderColor: 'rgba(0,0,0,0.1)',
     },
     item: {
         paddingLeft: 15,
         paddingRight: 15,
         flexDirection: 'row',
         height: 50,
-        borderBottomWidth:1,
+        borderBottomWidth: Util.pixel,
         borderColor: 'rgba(0,0,0,0.1)',
         alignItems: 'center',
     },
@@ -228,7 +231,7 @@ const styles = StyleSheet.create({
         height: 15,
     },
     logout: {
-        borderBottomWidth:1,
+        borderBottomWidth: Util.pixel,
         height: 50,
         borderColor: '#efefef',
         alignItems: 'center',
