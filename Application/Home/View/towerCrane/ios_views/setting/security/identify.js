@@ -11,6 +11,7 @@ import {
 import Util from '../../common/util'
 import NavigationBar from '../../common/navBar'
 import ChangePassword from './changePassword'
+import ChangeEmail1 from './changeEmail1'
 
 export default class identify extends Component {
     constructor(props){
@@ -75,7 +76,12 @@ export default class identify extends Component {
         let formData = new FormData();
         formData.append("username",this.props.username);
         formData.append("identifyNum",this.identifyNumInput);
-        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/checkIdentifyNum";
+        var url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/checkIdentifyNum";
+        // 修改Email的提交数据
+        if(that.props.changeWhat === 'changeEmailDone'){
+            formData.append("newEmail",this.props.newEmail);
+            var url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/changeEmail";
+        }
         Util.post(url, formData,
             function (responseJson) {
                 if(responseJson.status === 0) {
@@ -85,13 +91,30 @@ export default class identify extends Component {
                     AlertIOS.alert(responseJson.message, '', [{text: '确认',onPress:()=>{
                         const { navigator } = that.props;
                         if(navigator) {
-                            navigator.push({
-                                name: '修改密码',
-                                component: ChangePassword,
-                                params: {
-                                    username: that.props.username,
-                                }
-                            })
+                            if(that.props.changeWhat === 'password'){
+                                navigator.push({
+                                    name: '修改密码',
+                                    component: ChangePassword,
+                                    params: {
+                                        username: that.props.username,
+                                    }
+                                })
+                            }
+                            // 在原邮箱地址中发送验证码的跳转路由
+                            if(that.props.changeWhat === 'email'){
+                                navigator.push({
+                                    name: '修改邮箱',
+                                    component: ChangeEmail1,
+                                    params: {
+                                        username: that.props.username,
+                                        encryptEmail: that.props.encryptEmail,
+                                    }
+                                })
+                            }
+                            // 在新邮箱地址中发送验证码的跳转路由
+                            if(that.props.changeWhat === 'changeEmailDone'){
+                                navigator.popToTop();
+                            }
                         }
                     },}]);
                 }
@@ -105,6 +128,9 @@ export default class identify extends Component {
         let that = this;
         let formData = new FormData();
         formData.append("email",this.props.email);
+        if(this.props.changeWhat === 'changeEmailDone') {
+            formData.append("email",this.props.newEmail);
+        }
         formData.append("username",this.props.username);
         let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/sendEmail";
         // 发送email地址和用户名,得到验证码

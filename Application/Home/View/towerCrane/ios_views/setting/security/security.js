@@ -49,7 +49,7 @@ export default class security extends Component {
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity>
-                        <View style={styles.item}>
+                    <View style={styles.item}>
                             <Text style={styles.text}>手机号</Text>
                             <Text style={styles.data}>{this.state.phone}</Text>
                             <Image
@@ -58,8 +58,10 @@ export default class security extends Component {
                             />
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
-                        <View style={styles.item}>
+                    <TouchableOpacity
+                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','email')}>
+
+                    <View style={styles.item}>
                             <Text style={styles.text}>邮箱</Text>
                             <Text style={styles.data}>{this.state.encryptEmail}</Text>
                             <Image
@@ -129,7 +131,7 @@ export default class security extends Component {
                 </View>
                 <View style={styles.itemContainer3}>
                     <TouchableOpacity
-                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证')}>
+                        onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','password')}>
                         <View style={styles.item}>
                             <Text style={styles.text}>修改密码</Text>
                             <Image
@@ -150,16 +152,17 @@ export default class security extends Component {
         }
     }
 
-    _goPage(component,title) {
+    _goPage(component,title,changeWhat) {
         const { navigator } = this.props;
         if(navigator) {
             navigator.push({
-                name: 'title',
+                name: title,
                 component: component,
                 params: {
                     username: this.props.username,
                     email: this.state.email,
                     encryptEmail: this.state.encryptEmail,
+                    changeWhat : changeWhat,
                 }
             })
         }
@@ -220,7 +223,6 @@ const styles = StyleSheet.create({
         marginTop: 15,
     },
     item: {
-        marginLeft: 5,
         paddingLeft: 10,
         paddingRight: 10,
         flexDirection: 'row',
@@ -231,7 +233,7 @@ const styles = StyleSheet.create({
     },
     text: {
         flex: 10,
-        marginLeft: 10,
+        marginLeft: 5,
         fontSize: 18,
         fontWeight: '300',
         color: '#333',

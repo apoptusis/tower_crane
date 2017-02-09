@@ -6,63 +6,68 @@ import {
     Image,
     TouchableOpacity,
     AlertIOS,
+    TextInput,
+    AsyncStorage,
 } from 'react-native';
-import NavigationBar from '../../common/navBar';
-import Identify from './identify'
 import Util from '../../common/util'
+import NavigationBar from '../../common/navBar'
+import Identify from './identify'
 
-export default class getEmailIdentifyNum extends Component {
+
+export default class changePassword extends Component {
     constructor(props){
         super(props);
-        this.state = {
-            identifyNum: null,
-        };
+        this.newEmail = '';
     }
 
     render() {
         return (
             <View style={{flex:1}}>
                 <NavigationBar
-                    title={'安全验证'}
+                    title={'修改邮箱'}
                     leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <View style={styles.container}>
-                    <View style={styles.info}>
-                        <Text style={styles.infoText}>为了保证你的账户安全,请验证身份。验证成功后进行下一步操作。</Text>
-                    </View>
-                    <View style={styles.email}>
-                        <Text style={styles.emailText}>{this.props.encryptEmail}</Text>
+                    <View style={styles.inputContainer}>
+                        <View style={styles.inputItem}>
+                            <TextInput
+                                style={styles.input}
+                                placeholder="邮箱"
+                                autoCapitalize="none"
+                                selectionColor="#6a617c"
+                                placeholderTextColor="#999"
+                                clearButtonMode="while-editing"
+                                onChangeText={(text) => {
+                                    this.newEmail = text}}
+                            />
+                        </View>
                     </View>
                     <View style={styles.buttonContainer}>
-                        <TouchableOpacity
-                            onPress={this._getIdentifyNum.bind(this)}>
-                                <View style={styles.button}>
-                                    <Text style={styles.buttonText}>发送验证码</Text>
-                                </View>
-                        </TouchableOpacity>
-                    </View>
-                    <View style={styles.bottomInfo}>
-                        <Text style={styles.bottomInfoText}>
-                            验证身份遇到问题? 请联系18673241234 或者发送邮件到364567123@163.com 联系管理员。
-                        </Text>
+                        <View style={styles.button}>
+                            <TouchableOpacity onPress={this._sendIdentity.bind(this)}>
+                                <Text style={styles.buttonText}>确定</Text>
+                            </TouchableOpacity>
+                        </View>
                     </View>
                 </View>
             </View>
         );
     }
 
-    _backToFront (){
+    _backToFront() {
         const { navigator } = this.props;
         if(navigator) {
             navigator.pop();
         }
     }
 
-    _getIdentifyNum(){
+    // TODO: 检查输入的Email格式是否正确
+    // 向输入的新邮箱地址中发生验证码
+    _sendIdentity() {
         let that = this;
         let formData = new FormData();
-        formData.append("email",this.props.email);
+        formData.append("email",this.newEmail);
         formData.append("username",this.props.username);
         let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/sendEmail";
         // 发送email地址和用户名,得到验证码
@@ -83,10 +88,10 @@ export default class getEmailIdentifyNum extends Component {
                                 name: '请输入验证码',
                                 component: Identify,
                                 params: {
-                                    encryptEmail: that.props.encryptEmail,
-                                    email: that.props.email,
+                                    newEmail: that.newEmail,
+                                    encryptEmail: that.newEmail.split("@")[0].replace(/.{4}$/, '****')+'@'+that.newEmail.split("@")[1],
                                     username: that.props.username,
-                                    changeWhat: that.props.changeWhat,
+                                    changeWhat: 'changeEmailDone',
                                 }
                             })
                         }
@@ -98,58 +103,46 @@ export default class getEmailIdentifyNum extends Component {
                 alert(err);
             });
     }
-}
 
+}
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center',
         marginLeft: 15,
         marginRight: 15,
         marginTop: 10,
-        marginBottom: 10,
-    },
-    info: {
-        flex: 1,
-    },
-    email: {
-        flex: 1,
-    },
-    buttonContainer: {
-        flex: 4,
-    },
-    bottomInfo: {
-        flex: 1,
-        justifyContent: 'flex-end',
+        alignItems: 'center',
     },
     infoText: {
-        fontSize: 16,
-        color: '#666',
-        fontWeight: '300',
+        color: '#444',
+        textAlign: 'left',
     },
-    emailText: {
-        textAlign: 'center',
-        fontSize: 24,
-        color: '#333',
+    inputContainer: {
+        marginTop: 10,
+        marginBottom: 10,
+    },
+    inputItem: {
+        borderBottomWidth: 1,
+        marginBottom: 10,
+    },
+    input: {
+        paddingLeft: 5,
+        height: 40,
+        width: Util.size.width-32,
+        borderColor: 'rgba(0,0,0,0.1)',
     },
     button: {
-        alignItems: 'center',
-        justifyContent: 'center',
         height: 40,
-        width: Util.size.width-30,
-        backgroundColor: '#3ea8a0',
-        borderRadius: 5,
+        width: Util.size.width-32,
+        borderRadius: 3,
+        backgroundColor: "#76a4a1",
+        justifyContent: 'center',
     },
     buttonText: {
-        color: '#fff',
         fontSize: 20,
-        fontWeight: '400',
-    },
-    bottomInfoText: {
-        fontSize: 12,
-        color: '#888',
         textAlign: 'center',
+        color: '#fff',
     },
 });
 
-module.exports = getEmailIdentifyNum;
+module.exports = changePassword;

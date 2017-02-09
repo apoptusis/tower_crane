@@ -168,9 +168,11 @@ class towerCraneController extends Controller {
         $this->display();
     }
 
+/* * * * * * * * * * * * * * * * * * 用户信息模块: 用户信息的的查询 * * * * * * * * * * * * * * * * * */
+
     public function findUserInfo(){
-        if(IS_POST) {
-            $username = I('post.username');
+        if(IS_POST && I('post.tokenId')==cookie('tokenId')){
+            $username = cookie('username');
             $res = D('User')->where('username="' . $username . '"')->select();
             if ($res) {
                 return show(1, '查询成功', $res[0]);
@@ -185,8 +187,6 @@ class towerCraneController extends Controller {
             // 获取用户名和邮箱
             $username = I('post.username');
             $userEmail = I('post.email');
-            $username = 'admin';
-            $userEmail = '364567043@qq.com';
             // 生成验证码
             $identifyNum = mt_rand(100000, 999999);
             $data = array(
@@ -194,7 +194,7 @@ class towerCraneController extends Controller {
             );
             // 存入cookie
             $identifyString = $username.$identifyNum;
-            cookie('identifyString',$identifyString,30);
+            cookie('identifyString',$identifyString,60);
             // 发送验证码邮件
             try{
                 $mail = new \PHPMailer(true);
@@ -217,7 +217,7 @@ class towerCraneController extends Controller {
                 $mail->Subject = "你更改帐号信息的验证码是:" . $identifyNum;
                 $mail->Body = "
                     <h2>" . $username . "，你好，<h2>
-                    <p>此次帐号信息变更需要的验证码如下，请在 30 分钟内输入验证码进行下一步操作。</p>
+                    <p>此次帐号信息变更需要的验证码如下，请在 1 分钟内输入验证码进行下一步操作。</p>
                     <p style='font-size:32px;font-weight:700;color:#ff545b;'>" . $identifyNum . "</p>
                     <p>如果非你本人操作，你的帐号可能存在安全风险，请立即修改密码!</p>
                     ";
@@ -261,7 +261,34 @@ class towerCraneController extends Controller {
             if($res){
                 return show(1, '密码修改成功!');
             }else{
-                return show(0, '密码修改失败!');
+                return show(0, '新密码不能与旧密码相同!');
+            }
+        }
+    }
+
+    public function changeEmail(){
+        if(IS_POST){
+            $username = I('post.username');
+            $newEmail = I('post.newEmail');
+            $identifyNum = I('post.identifyNum');
+            $userIdentifyString = $username.$identifyNum;
+            if(cookie('identifyString') == $userIdentifyString){
+                $result = D('User')->create();
+                $message = D('User')->getError();
+                if(!$result){
+                    return show(0,$message);
+                }
+                $data = array(
+                    'email' => $newEmail,
+                );
+                $res = D('User')->where('username="'.$username.'"')->save($data);
+                if($res){
+                    return show(1, '修改成功!');
+                }else{
+                    return show(0, '修改失败!');
+                }
+            }else{
+                return show(0, '验证码错误');
             }
         }
     }
