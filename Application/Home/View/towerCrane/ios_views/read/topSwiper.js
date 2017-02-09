@@ -25,7 +25,6 @@ export default class topSwiper extends Component {
         var data = this.state.data;
         var view = [];
         for (var i in data) {
-            i = JSON.parse(i);// 不写这个JSON解析错误
             let item = (
                 <View
                     key={i}
@@ -45,7 +44,6 @@ export default class topSwiper extends Component {
             );
             view.push(item);
         }
-
 
         return (
             <View style={styles.container}>
