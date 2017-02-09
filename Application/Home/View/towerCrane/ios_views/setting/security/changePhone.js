@@ -89,7 +89,7 @@ export default class changePassword extends Component {
         Util.post(url, formData,
             function (responseJson) {
                 if(responseJson.status === 0) {
-                    AlertIOS.alert('失败！', responseJson.message, [{text: '确认'}]);
+                    AlertIOS.alert('修改失败！', responseJson.message, [{text: '确认'}]);
                 }
                 if(responseJson.status === 1) {
                     AlertIOS.alert('修改成功!', responseJson.message, [{text: '确认',onPress:()=>{
