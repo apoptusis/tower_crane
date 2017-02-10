@@ -31,55 +31,57 @@ class DataListPage extends Component {
         return (
             <View style={styles.container}>
                 <NavigationBar title={'我的设备'}/>
-                <ListView
-                    style={styles.list}
-                    enableEmptySections={true}
-                    dataSource={this.state.dataSource}
-                    renderRow={(rowData) => (
-                        <TouchableOpacity style={styles.container1} onPress={this._goSingleDataPage.bind(this,rowData.sim_num)}>
-                            <View style={styles.itemContainer}>
-                                <View style={styles.leftInfo}>
-                                    {
-                                        (() => {
-                                            if(rowData.type === '塔头式塔机'){
-                                                return <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/crane1.png"}}
-                                                              style={styles.listImage}
-                                                              resizeMode='contain'/>
-                                            } 
-                                        })()
-                                    }
-                                    {
-                                        (() => {
-                                            if(rowData.type === '平头式塔机'){
-                                                return <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/crane2.png"}}
-                                                              style={styles.listImage}
-                                                              resizeMode='contain'/>
-                                            }
-                                        })()
-                                    }
-                                    {
-                                        (() => {
-                                            if(rowData.type === '动臂式塔机'){
-                                                return <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/crane3.png"}}
-                                                              style={styles.listImage}
-                                                              resizeMode='contain'/>
-                                            }
-                                        })()
-                                    }
+                <View style={{ flex: 1,}}>
+                    <ListView
+                        style={styles.list}
+                        enableEmptySections={true}
+                        dataSource={this.state.dataSource}
+                        renderRow={(rowData) => (
+                            <TouchableOpacity style={styles.container1} onPress={this._goSingleDataPage.bind(this,rowData.sim_num)}>
+                                <View style={styles.itemContainer}>
+                                    <View style={styles.leftInfo}>
+                                        {
+                                            (() => {
+                                                if(rowData.type === '塔头式塔机'){
+                                                    return <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/crane1.png"}}
+                                                                  style={styles.listImage}
+                                                                  resizeMode='contain'/>
+                                                }
+                                            })()
+                                        }
+                                        {
+                                            (() => {
+                                                if(rowData.type === '平头式塔机'){
+                                                    return <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/crane2.png"}}
+                                                                  style={styles.listImage}
+                                                                  resizeMode='contain'/>
+                                                }
+                                            })()
+                                        }
+                                        {
+                                            (() => {
+                                                if(rowData.type === '动臂式塔机'){
+                                                    return <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/crane3.png"}}
+                                                                  style={styles.listImage}
+                                                                  resizeMode='contain'/>
+                                                }
+                                            })()
+                                        }
+                                    </View>
+                                    <View style={styles.rightInfo}>
+                                        <Text style={styles.title}>{rowData.model} / {rowData.type}</Text>
+                                        <Text style={styles.simNum}>SIM卡号：{rowData.sim_num}</Text>
+                                    </View>
+                                    <View style={styles.moreIcon}>
+                                        <Image source={{url:moreIcon}}
+                                               style={styles.moreImage}
+                                               resizeMode='contain'/>
+                                    </View>
                                 </View>
-                                <View style={styles.rightInfo}>
-                                    <Text style={styles.title}>{rowData.model} / {rowData.type}</Text>
-                                    <Text style={styles.simNum}>SIM卡号：{rowData.sim_num}</Text>
-                                </View>
-                                <View style={styles.moreIcon}>
-                                    <Image source={{url:moreIcon}}
-                                           style={styles.moreImage}
-                                           resizeMode='contain'/>
-                                </View>
-                            </View>
-                        </TouchableOpacity>
-                    )}
-                />
+                            </TouchableOpacity>
+                        )}
+                    />
+                </View>
             </View>
         );
     }
@@ -139,13 +141,12 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flexDirection: 'row',
-        // height: Util.size.height/8,
         height: 90,
         borderTopWidth: 1,
         borderBottomWidth: 1,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
-        marginBottom: 20,
+        marginBottom: 10,
     },
     leftInfo: {
         flex: 2,
