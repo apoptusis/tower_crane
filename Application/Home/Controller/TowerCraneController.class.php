@@ -168,11 +168,11 @@ class towerCraneController extends Controller {
 /* * * * * * * * * * * * * * * * * * 阅读模块: 文章的查询 * * * * * * * * * * * * * * * * * */
 
     public function getArticle(){
-        if(I('get.type')=='topSwiper'){
-            $type = 1;
+        if(I('get.isHot')=='yes'){
+            $isHot = 1;
         }
         $cond = array(
-            'type' => $type,
+            'isHot' => $isHot,
             'status' => 1,
         );
         $res = D('Article')->where($cond)->select();

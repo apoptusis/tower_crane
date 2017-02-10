@@ -77,7 +77,7 @@ export default class topSwiper extends Component {
 
     _getData() {
         let that = this;
-        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?type=topSwiper";
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?isHot=yes";
         Util.get(url,
             function(responseJson) {
                 if(responseJson.status === 0) {
