@@ -196,7 +196,17 @@ class towerCraneController extends Controller {
                 return show(0, '文章查询失败!');
             }
         }
-
+        // 查询搜索内容
+        if(I('get.search')){
+            $searchText = I('get.search');
+            $cond['description'] = array('like','%'.$searchText.'%');
+            $res = D('Article')->where($cond)->order('id desc')->select();
+            if($res){
+                return show(1, '文章查询成功!', $res);
+            }else{
+                return show(0, '暂时没有找到你想要的内容!');
+            }
+        }
         // 查询其他模块
         if(I('get.type')){
             if(I('get.type')=='repair'){

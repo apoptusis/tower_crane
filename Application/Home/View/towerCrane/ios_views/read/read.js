@@ -14,6 +14,7 @@ import NavigationBar from '../common/navBar';
 import Category from './category';
 import Recommend from './recommend';
 import TopSwiper from './topSwiper';
+import List from './list';
 
 // 分割线Hr组件
 class Hr extends Component {
@@ -28,9 +29,6 @@ class ReadPage extends Component {
     constructor() {
         super();
         this.searchText = null;
-        this.state = {
-            showWhat : 'page',
-        };
     }
 
     render(){
@@ -41,10 +39,12 @@ class ReadPage extends Component {
                 <SearchBar
                     ref='searchBar'
                     placeholder='搜索'
-                    barTintColor=""
-                    textFieldBackgroundColor=""
                     searchBarStyle="minimal"
                     showsCancelButton={true}
+                    onChangeText={(text)=>{
+                        this.searchText = text;
+                    }}
+                    onSearchButtonPress={this._goSearchList.bind(this)}
                 />
                 <ScrollView style={styles.container}>
                     <TopSwiper navigator={this.props.navigator}/>
@@ -57,9 +57,18 @@ class ReadPage extends Component {
         );
     }
 
-
-    componentDidMount() {
-        // this.refs.searchBar.unFocus();
+    _goSearchList(){
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.push({
+                name: '详情',
+                component: List,
+                params: {
+                    searchText: this.searchText,
+                    name: '搜索文章'
+                }
+            });
+        }
     }
 }
 
