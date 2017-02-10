@@ -111,14 +111,14 @@ var styles = StyleSheet.create({
     item: {
         height: 80,
         width: (Util.size.width - 30) /2,
-        borderColor: '#f1f1f1',
-        borderWidth: 1,//Util.pixel,
+        borderColor: '#rgba(0,0,0,0.1)',
+        borderWidth: 1,
         borderRadius: 5,
         justifyContent: 'center',
         alignItems: 'center',
     },
     text: {
-        color: '#707070',
+        color: '#666',
         fontSize: 18,
         fontWeight: '300',
     }

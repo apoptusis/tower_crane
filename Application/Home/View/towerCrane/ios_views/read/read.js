@@ -38,11 +38,9 @@ class ReadPage extends Component {
                 <ScrollView style={styles.container}>
                     <TopSwiper navigator={this.props.navigator}/>
                     <Hr/>
-                    <Recommend name="年度推荐" navigator={this.props.navigator}/>
-                    <Hr/>
                     <Category navigator={this.props.navigator}/>
                     <Hr/>
-                    <Recommend name="年度大误" navigator={this.props.navigator}/>
+                    <Recommend name="热门推荐" navigator={this.props.navigator}/>
                 </ScrollView>
             </View>
         );
@@ -55,7 +53,7 @@ var styles = StyleSheet.create({
     },
     hr : {
         marginTop:10,
-        borderColor:"#f0f0f0",
+        borderColor:"rgba(0,0,0,0.1)",
         borderWidth: Util.pixel,
     }
 });
