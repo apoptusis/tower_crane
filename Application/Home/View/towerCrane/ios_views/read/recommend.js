@@ -49,7 +49,7 @@ export default class recommend extends Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.title}>
-                    推荐内容
+                    热门推荐
                 </Text>
 
                 <View style={styles.img_view}>
