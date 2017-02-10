@@ -55,8 +55,13 @@ export default class list extends Component {
 
     _getListData(){
         let that = this;
-        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?type=" + this.props.type;
         let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+        let url;
+        if(this.props.searchText){
+            url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?search=" + this.props.searchText;
+        }else{
+            url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?type=" + this.props.type;
+        }
         Util.get(url,function(responseJson) {
             if(responseJson.status === 0) {
                 AlertIOS.alert('Oops！', responseJson.message, [{text: '确认',onPress: ()=>{that._backToFront ()}}]);
