@@ -14,6 +14,8 @@ import {
 import Help from './help';
 import Security from './security/security';
 import Terms from './terms';
+import Feedback from './feedback';
+
 import NavigationBar from '../common/navBar';
 import loginPage from '../loginPage'
 import Util from '../common/util';
@@ -83,6 +85,21 @@ export default class settingPage extends Component {
                                         source={{uri: img3}}
                                     />
                                     <Text style={styles.text}>服务条款</Text>
+                                    <Image
+                                        style={styles.moreIcon}
+                                        source={{uri: moreIcon}}
+                                    />
+                                </View>
+                            </TouchableOpacity>
+
+                            <TouchableOpacity
+                                onPress={this._goPage.bind(this,Feedback,'意见反馈')}>
+                                <View style={styles.item}>
+                                    <Image
+                                        style={styles.img}
+                                        source={{uri: img4}}
+                                    />
+                                    <Text style={styles.text}>意见反馈</Text>
                                     <Image
                                         style={styles.moreIcon}
                                         source={{uri: moreIcon}}

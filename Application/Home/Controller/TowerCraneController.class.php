@@ -421,6 +421,23 @@ class towerCraneController extends Controller {
         }
     }
 
+    public function sendFeedback(){
+        if(IS_POST){
+            $username = I('post.username');
+            $feedback = I('post.feedback');
+            $data = array(
+                'feedback' => $feedback,
+                'feedbackUpdateTime' => time(),
+            );
+            $res = D('User')->where('username="'.$username.'"')->save($data);
+            if($res){
+                return show(1, '反馈成功!');
+            }else{
+                return show(0, '数据提交失败!');
+            }
+        }
+    }
+
     public function showPassword(){
         echo getMd5('admin1');
     }
