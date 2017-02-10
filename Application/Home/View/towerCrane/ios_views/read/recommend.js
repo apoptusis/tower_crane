@@ -59,7 +59,6 @@ export default class recommend extends Component {
                 <View style={styles.img_view}>
                     {view2}
                 </View>
-
             </View>
         );
     }
