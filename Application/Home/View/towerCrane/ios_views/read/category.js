@@ -26,14 +26,14 @@ export default class category extends Component {
                 </Text>
                 <View style={styles.row}>
                     <View style={styles.row_item}>
-                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this)}>
+                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this,'塔机修理')}>
                             <Text style={styles.text}>
                                 塔机修理
                             </Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.row_item}>
-                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this)}>
+                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this,'新闻快报')}>
                             <Text style={styles.text}>
                                 新闻快报
                             </Text>
@@ -42,14 +42,14 @@ export default class category extends Component {
                 </View>
                 <View style={styles.row}>
                     <View style={styles.row_item}>
-                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this)}>
+                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this,'事故快报')}>
                             <Text style={styles.text}>
                                 事故快报
                             </Text>
                         </TouchableOpacity>
                     </View>
                     <View style={styles.row_item}>
-                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this)}>
+                        <TouchableOpacity style={styles.item} onPress={this._goToList.bind(this,'其他')}>
                             <Text style={styles.text}>
                                 其他
                             </Text>
@@ -61,16 +61,30 @@ export default class category extends Component {
     }
 
     _goToList(name) {
-        let type = this._getType(name);
-        let url = 'http://localhost:3000/data/read?type=' + type;
-        this.state.navigator.push({
-            component: List,
-            title: name,
-            barTintColor: '#fff',
-            passProps: {
-                url: url
-            }
-        });
+        var type;
+        if(name === '塔机修理'){
+            type = 'repair';
+        }
+        if(name === '新闻快报'){
+            type = 'news';
+        }
+        if(name === '事故快报'){
+            type = 'accident';
+        }
+        if(name === '其他'){
+            type = 'other';
+        }
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.push({
+                title: name,
+                component: List,
+                params: {
+                    type: type,
+                    name: name,
+                }
+            });
+        }
     }
 }
 

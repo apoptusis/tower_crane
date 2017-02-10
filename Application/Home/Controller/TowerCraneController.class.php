@@ -168,18 +168,45 @@ class towerCraneController extends Controller {
 /* * * * * * * * * * * * * * * * * * 阅读模块: 文章的查询 * * * * * * * * * * * * * * * * * */
 
     public function getArticle(){
+        // 查询热门推荐(轮播图)
         if(I('get.isHot')=='yes'){
             $isHot = 1;
+            $cond = array(
+                'isHot' => $isHot,
+                'status' => 1,
+            );
+            $res = D('Article')->where($cond)->select();
+            if($res){
+                return show(1, '文章查询成功!', $res);
+            }else{
+                return show(0, '文章查询失败!');
+            }
         }
-        $cond = array(
-            'isHot' => $isHot,
-            'status' => 1,
-        );
-        $res = D('Article')->where($cond)->select();
-        if($res){
-            return show(1, '文章查询成功!', $res);
-        }else{
-            return show(0, '文章查询失败!');
+
+        // 查询其他模块
+        if(I('get.type')){
+            if(I('get.type')=='repair'){
+                $type = 1;
+            }
+            if(I('get.type')=='news'){
+                $type = 2;
+            }
+            if(I('get.type')=='accident'){
+                $type = 3;
+            }
+            if(I('get.type')=='other'){
+                $type = 4;
+            }
+            $cond = array(
+                'type' => $type,
+                'status' => 1,
+            );
+            $res = D('Article')->where($cond)->select();
+            if($res){
+                return show(1, '文章查询成功!', $res);
+            }else{
+                return show(0, '该专题暂时没有内容!');
+            }
         }
     }
 

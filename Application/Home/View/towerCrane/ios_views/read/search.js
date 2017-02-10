@@ -23,7 +23,7 @@ export default class search extends Component {
 
 var styles = StyleSheet.create({
     container: {
-        marginTop: 15,
+        marginTop: 10,
         paddingLeft: 10,
         paddingRight: 10,
     },

@@ -7,55 +7,64 @@ import {
     Image,
     ListView,
     TouchableOpacity,
+    AlertIOS,
 } from 'react-native';
 import Util from '../common/util';
-import TWebView from '../common/WView';
+import Detail from './detail';
+import NavigationBar from '../common/navBar';
+
 
 export default class list extends Component {
     constructor(props){
         super(props);
         var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.state = {
-            url : props.url,
             dataSource: ds.cloneWithRows([]),
         };
+        this._getListData();
     }
 
     render(){
         return (
-        <ListView
-            enableEmptySections={true}
-            dataSource={this.state.dataSource}
-            renderRow={(rowData) => (
-                <TouchableOpacity style={styles.item}
-                                  onPress={this._showWebPage.bind(this, rowData.url ,  rowData.title)}
-                >
-                    <View>
-                        <Image style={styles.image} source={{url:rowData.img}}/>
-                    </View>
-                    <View style={styles.text_wrapper}>
-                        <Text style={styles.title} numberOfLines={1}>{rowData.title}</Text>
-                        <Text style={styles.time}>{rowData.time}</Text>
-                    </View>
-                </TouchableOpacity>
-            )}
-        />
+            <View>
+                <NavigationBar
+                    title={this.props.name}
+                    leftText={'返回'}
+                    leftAction={ this._backToFront.bind(this) }
+                />
+                <ListView
+                    enableEmptySections={true}
+                    dataSource={this.state.dataSource}
+                    renderRow={(rowData) => (
+                        <TouchableOpacity style={styles.item}
+                                          onPress={this._showWebPage.bind(this, rowData.page_url)}
+                        >
+                            <View>
+                                <Image style={styles.image} source={{url:rowData.img_url}}/>
+                            </View>
+                            <View style={styles.text_wrapper}>
+                                <Text style={styles.title} numberOfLines={1}>{rowData.title}</Text>
+                                <Text style={styles.time}>{rowData.update_time}</Text>
+                            </View>
+                        </TouchableOpacity>
+                    )}
+                />
+            </View>
         );
     }
 
-    componentDidMount(){
-        let url = this.state.url;
+    _getListData(){
         let that = this;
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?type=" + this.props.type;
         let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-        Util.get(url,function (data) {
-            // console.log(data.status);
-            if(data.status){
-                let obj = data.data;
+        Util.get(url,function(responseJson) {
+            if(responseJson.status === 0) {
+                AlertIOS.alert('Oops！', responseJson.message, [{text: '确认',onPress: ()=>{that._backToFront ()}}]);
+            }
+            if(responseJson.status === 1){
                 that.setState({
-                    dataSource: ds.cloneWithRows(obj),
+                    dataSource: ds.cloneWithRows(responseJson.data),
                 });
-            } else {
-                alert('数据读取失败')
             }
         },
         function (err) {
@@ -64,14 +73,24 @@ export default class list extends Component {
     }
 
     // 展示详情页
-    _showWebPage(url,title){
-        this.props.navigator.push({
-            component: TWebView,
-            title: title,
-            passProps: {
-                url: url,
-            }
-        });
+    _showWebPage(url){
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.push({
+                name: '详情',
+                component: Detail,
+                params: {
+                    url: url,
+                }
+            });
+        }
+    }
+
+    _backToFront (){
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.pop();
+        }
     }
 }
 
@@ -80,7 +99,7 @@ var styles = StyleSheet.create({
         height: 78,
         paddingLeft: 10,
         paddingRight: 10,
-        borderBottomColor: '#ededed',
+        borderBottomColor: 'rgba(0,0,0,0.1)',
         borderBottomWidth: Util.pixel,
         flexDirection: 'row',
     },
@@ -94,13 +113,14 @@ var styles = StyleSheet.create({
         marginTop: 10,
         marginLeft: 8,
         fontSize: 16,
+        color:"#333",
     },
     text_wrapper: {
         flex: 1,
         marginTop: 5,
     },
     time: {
-        color:"#ddd",
+        color:"#666",
         fontSize: 14,
         marginLeft: 8,
         marginTop: 15,
