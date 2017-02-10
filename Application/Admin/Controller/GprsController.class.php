@@ -12,12 +12,23 @@ class GprsController extends CommonController {
                 'latitude' => $latitude,
                 'longitude' => $longitude,
                 'update_time' => time(),
-                'weight' => mt_rand(500,1000)/100,
-                'amplitude' => mt_rand(3000,5000)/100,
+                'amplitude' => mt_rand(1000,5000)/100,
                 'wind' => mt_rand(500,2000)/100,
                 'height' => mt_rand(2000,3000)/100,
                 'rotate' => mt_rand(-18000,18000)/100,
             );
+            if(10<$data['amplitude'] && $data['amplitude']<20){
+                $data['weight'] = mt_rand(700,900)/100;
+            }
+            if(20<$data['amplitude'] && $data['amplitude']<30){
+                $data['weight'] = mt_rand(400,600)/100;
+            }
+            if(30<$data['amplitude'] && $data['amplitude']<40){
+                $data['weight'] = mt_rand(300,400)/100;
+            }
+            if(40<$data['amplitude'] && $data['amplitude']<50){
+                $data['weight'] = mt_rand(200,300)/100;
+            }
             $data['force']=round($data['weight']*$data['amplitude']*9.8,2);
             // 10%的概率报警
             $warning = mt_rand(0,100);

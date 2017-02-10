@@ -78,7 +78,7 @@ export default class SingleDataPage extends Component {
                             </View>
                             <View style={styles.item}>
                                 <PercentageCircle radius={50} percent={Math.floor(this.state.force/this.state.maxforce*100)} color={"#3ea8a0"}>
-                                    <Text style={styles.data}> {this.state.force} N·M </Text>
+                                    <Text style={styles.data}> {this.state.force} kN·M </Text>
                                 </PercentageCircle>
                                 <Text style={styles.title}> 起重力矩 </Text>
                             </View>
