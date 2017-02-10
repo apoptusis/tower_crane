@@ -9,15 +9,16 @@ import {
 
 } from 'react-native';
 import Util from '../common/util';
-import WView from '../common/WView';
+import Detail from './detail';
+
 
 export default class recommend extends Component {
     constructor(props){
         super(props);
         this.state = {
-            name : props.name,
             data : props.data,
         };
+        this._getData();
     }
 
     render(){
@@ -28,10 +29,10 @@ export default class recommend extends Component {
             let item = (
                 <TouchableOpacity style={styles.img_item}
                                   key={i}
-                                  onPress={this._showWebPage.bind(this, data[i].url ,  data[i].title)}
+                                  onPress={this._showWebPage.bind(this, data[i].page_url)}
                 >
                     <Image style={[styles.img, styles.shadow]}
-                           source={{url:data[i].img}}/>
+                           source={{url:data[i].img_url}}/>
                     <Text style={styles.descri}
                           numberOfLines={2}>
                         {data[i].title}
@@ -48,7 +49,7 @@ export default class recommend extends Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.title}>
-                    {this.state.name}
+                    推荐内容
                 </Text>
 
                 <View style={styles.img_view}>
@@ -63,15 +64,38 @@ export default class recommend extends Component {
         );
     }
 
+    _getData() {
+        let that = this;
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/getArticle?isRecommend=yes";
+        Util.get(url,
+            function(responseJson) {
+                if(responseJson.status === 0) {
+                    AlertIOS.alert('数据查询失败！', responseJson.message, [{text: '确认'}]);
+                }
+                if(responseJson.status === 1) {
+                    that.setState({
+                        data: responseJson.data,
+                    });
+                }
+            },
+            function(err){
+                alert(err);
+            });
+    }
+
+
     // 展示详情页
-    _showWebPage(url,title){
-        this.props.navigator.push({
-            component: WView,
-            title: title,
-            passProps: {
-                url: url,
-            }
-        });
+    _showWebPage(url){
+        const { navigator } = this.props;
+        if(navigator) {
+            navigator.push({
+                name: '详情',
+                component: Detail,
+                params: {
+                    url: url,
+                }
+            });
+        }
     }
 }
 

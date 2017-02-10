@@ -182,6 +182,20 @@ class towerCraneController extends Controller {
                 return show(0, '文章查询失败!');
             }
         }
+        // 查询推荐模块内容
+        if(I('get.isRecommend')=='yes'){
+            $isHot = 2;
+            $cond = array(
+                'isHot' => $isHot,
+                'status' => 1,
+            );
+            $res = D('Article')->where($cond)->order('id desc')->select();
+            if($res){
+                return show(1, '文章查询成功!', $res);
+            }else{
+                return show(0, '文章查询失败!');
+            }
+        }
 
         // 查询其他模块
         if(I('get.type')){
@@ -201,7 +215,7 @@ class towerCraneController extends Controller {
                 'type' => $type,
                 'status' => 1,
             );
-            $res = D('Article')->where($cond)->select();
+            $res = D('Article')->where($cond)->order('id desc')->select();
             if($res){
                 return show(1, '文章查询成功!', $res);
             }else{
@@ -209,9 +223,6 @@ class towerCraneController extends Controller {
             }
         }
     }
-
-
-
 
 /* * * * * * * * * * * * * * * * * * 用户信息模块: 用户信息的查询 * * * * * * * * * * * * * * * * * */
 
