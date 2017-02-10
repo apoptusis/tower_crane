@@ -76,7 +76,7 @@ export default class security extends Component {
                     <TouchableOpacity
                         onPress={this._goPage.bind(this,getEmailIdentifyNum,'安全验证','password')}>
                         <View style={styles.item}>
-                            <Text style={styles.text}>修改密码</Text>
+                            <Text style={[styles.text,{flex:20}]}>修改密码</Text>
                             <Image
                                 style={styles.moreIcon}
                                 source={{uri: moreIcon}}
@@ -85,62 +85,32 @@ export default class security extends Component {
                     </TouchableOpacity>
                 </View>
                 <View style={styles.itemContainer3}>
-                    <TouchableOpacity>
-                        <View style={styles.item}>
-                            <Text style={styles.text}>身份验证</Text>
-                            <Text style={styles.data}>{this.state.realName}</Text>
-                            <Image
-                                style={styles.moreIcon}
-                                source={{uri: moreIcon}}
-                            />
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <View style={styles.item}>
-                            <Text style={styles.text}>授权码</Text>
-                            <Text style={styles.data}>{this.state.authCode}</Text>
-                            <Image
-                                style={styles.moreIcon}
-                                source={{uri: moreIcon}}
-                            />
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <View style={styles.item}>
-                            <Text style={styles.text}>公司信息</Text>
-                            <Text style={styles.data}>{this.state.company}</Text>
-                            <Image
-                                style={styles.moreIcon}
-                                source={{uri: moreIcon}}
-                            />
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <View style={styles.item}>
-                            <Text style={styles.text}>地址</Text>
-                            <Text style={styles.data}>{this.state.address}</Text>
-                            <Image
-                                style={styles.moreIcon}
-                                source={{uri: moreIcon}}
-                            />
-                        </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <View style={styles.item}>
-                            <Text style={styles.text}>授权状态</Text>
-                            {(() => {
-                                if(this.state.status == 1){
-                                    return <Text style={styles.data}>激活</Text>;
-                                } else {
-                                    return <Text style={styles.data}>未激活</Text>;
-                                }
-                            })()}
-                            <Image
-                                style={styles.moreIcon}
-                                source={{uri: moreIcon}}
-                            />
-                        </View>
-                    </TouchableOpacity>
+                    <View style={styles.item}>
+                        <Text style={styles.text}>身份验证</Text>
+                        <Text style={styles.data}>{this.state.realName}</Text>
+                    </View>
+                    <View style={styles.item}>
+                        <Text style={styles.text}>公司信息</Text>
+                        <Text style={styles.data}>{this.state.company}</Text>
+                    </View>
+                    <View style={styles.item}>
+                        <Text style={styles.text}>地址</Text>
+                        <Text style={styles.data}>{this.state.address}</Text>
+                    </View>
+                    <View style={styles.item}>
+                        <Text style={styles.text}>授权码</Text>
+                        <Text style={styles.data}>{this.state.authCode}</Text>
+                    </View>
+                    <View style={styles.item}>
+                        <Text style={styles.text}>授权状态</Text>
+                        {(() => {
+                            if(this.state.status == 1){
+                                return <Text style={[styles.data,{color:'#3ea8a0'}]}>已激活</Text>;
+                            } else {
+                                return <Text style={[styles.data,{color:'#f92665'}]}>未激活</Text>;
+                            }
+                        })()}
+                    </View>
                 </View>
             </View>
         );
@@ -215,19 +185,19 @@ const styles = StyleSheet.create({
         borderTopWidth:1,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
-        marginTop: 15,
+        marginTop: 10,
     },
     itemContainer2: {
         borderTopWidth:1,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
-        marginTop: 15,
+        marginTop: 10,
     },
     itemContainer3: {
         borderTopWidth:1,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
-        marginTop: 15,
+        marginTop: 10,
     },
     item: {
         paddingLeft: 10,
