@@ -40,7 +40,7 @@ export default class settingPage extends Component {
                 <ScrollView>
                     <View style={styles.container}>
                         <View style={styles.logoContainer}>
-                            <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/logo.png"}}
+                            <Image source={{url:"http://localhost:8888/tower_crane/Application/Home/View/towerCrane/images/logoIcon.png"}}
                                    style={styles.logoImage}
                                    resizeMode='contain'/>
                         </View>
@@ -208,7 +208,6 @@ const styles = StyleSheet.create({
     logoImage: {
         width: 100,
         height: 100,
-        borderRadius:20,
     },
     versionText: {
         fontSize: 16,
