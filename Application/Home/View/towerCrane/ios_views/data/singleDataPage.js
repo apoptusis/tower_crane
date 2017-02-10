@@ -233,8 +233,9 @@ const styles = StyleSheet.create({
         marginLeft: 10,
     },
     updateTime: {
+        // marginTop: -40,
         flex: 1,
-        borderTopWidth: 1,
+        borderTopWidth: Util.pixel,
         fontSize: 16,
         fontWeight: '300',
         color: '#888',
@@ -244,16 +245,17 @@ const styles = StyleSheet.create({
     },
     dashboard:{
         height: Util.size.height/2.2,
-        borderBottomWidth: 1,
+        borderTopWidth: Util.pixel,
+        borderBottomWidth: Util.pixel,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
     },
     dataContainer: {
-        borderTopWidth: 1,
-        borderBottomWidth: 1,
+        borderTopWidth: Util.pixel,
+        borderBottomWidth: Util.pixel,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
-        marginTop: 15,
+        marginTop: 10,
     },
     dataItemContainer: {
         flex: 1,
@@ -265,7 +267,6 @@ const styles = StyleSheet.create({
         marginRight: 10,
         marginTop: 15,
         marginBottom: 15,
-        // backgroundColor: 'red',
     },
     title: {
         flex: 2,
@@ -287,11 +288,11 @@ const styles = StyleSheet.create({
         textAlign: 'right',
     },
     infoContainer: {
-        borderTopWidth: 1,
-        borderBottomWidth: 1,
+        borderTopWidth: Util.pixel,
+        borderBottomWidth: Util.pixel,
         borderColor: 'rgba(0,0,0,0.1)',
         backgroundColor: '#fff',
-        marginTop: 15,
+        marginTop: 10,
     },
     info: {
         flexDirection: 'row',

@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
     img: {
         flex: 1,
         width: 25,
-        height: 27
+        height: 28
     },
     itemContainer: {
         backgroundColor: '#fff',
