@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import indexPage from './ios_views/indexPage';
 import loginPage from './ios_views/loginPage'
-
+import SplashScreen from 'react-native-splash-screen'
 export default class towerCrane extends Component {
     render() {
         let defaultName = '登录';
@@ -27,6 +27,10 @@ export default class towerCrane extends Component {
                     return <Component {...route.params} navigator={navigator} />
                 }} />
         );
+    }
+
+    componentDidMount() {
+        SplashScreen.hide();//关闭启动屏幕
     }
 }
 
