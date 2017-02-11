@@ -200,7 +200,7 @@ export default class settingPage extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 30,
+        marginTop: 10,
     },
     logoContainer: {
         alignItems: 'center',
