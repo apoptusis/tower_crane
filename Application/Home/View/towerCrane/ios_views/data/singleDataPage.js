@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
     containerTitle: {
         fontSize: 18,
         fontWeight: '400',
-        color: '#3ea8a0',
+        color: '#666',
         marginTop: 10,
         marginLeft: 10,
     },

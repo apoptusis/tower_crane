@@ -33,7 +33,7 @@ export default class indexPage extends Component {
     render() {
         return (
             <TabBarIOS
-                tintColor="#63a6a1"
+                tintColor="#4a89dc"
                 barTintColor="#fff"
             >
                 <TabBarIOS.Item

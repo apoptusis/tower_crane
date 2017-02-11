@@ -57,12 +57,12 @@ export default class navBar extends Component {
 
 const styles = StyleSheet.create({
     wrapper: {
-        backgroundColor: "#63a6a1",
+        backgroundColor: "#4a89dc",
     },
     container: {
         marginTop:16,
         height: 40,
-        backgroundColor: "#63a6a1",
+        backgroundColor: "#4a89dc",
         alignItems: 'center',
     },
     iconContainer: {
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 18,
-        fontWeight: '400',
+        fontWeight: '500',
         color: '#fff',
     },
     singleTitleContainer: {

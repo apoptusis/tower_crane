@@ -31,8 +31,11 @@
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+  // 白色状态栏
+  // [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+  // 启动动画
+  [SplashScreen show] ;
 
-  [SplashScreen show] ;  // 添加这一句，这一句一定要在最后
   return YES;
 }
 
