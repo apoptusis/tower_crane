@@ -102,6 +102,7 @@ class towerCraneController extends Controller {
     public function realData(){
         if(IS_POST && I('post.sim_num')) {
             $sim_num = I('post.sim_num');
+//            $sim_num = 18673244444;
             // 查询塔机最新实时数据
             $realData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(1)->select();
             // 统计总报警次数
@@ -155,8 +156,6 @@ class towerCraneController extends Controller {
                 $data[$k]['amplitude'] = $v['amplitude'];
                 $data[$k]['rotate'] = $v['rotate'];
                 $data[$k]['wind'] = $v['wind'];
-                $data[$k]['sim_status'] = $v['sim_status'];
-                $data[$k]['lock_status'] = $v['lock_status'];
             }
             if($data){
                 return show(1, '查询成功', $data);
