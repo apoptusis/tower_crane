@@ -108,11 +108,30 @@ class towerCraneController extends Controller {
             // 统计总报警次数
             $allData = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->select();
             foreach ($allData as $k => $v) {
-                $warning[$k] = $v['iswarning'];
+                $height_warning[$k] = $v['height_warning'];
+                $weight_warning[$k] = $v['weight_warning'];
+                $amplitude_warning[$k] = $v['amplitude_warning'];
+                $force_warning[$k] = $v['force_warning'];
+                $rotate_warning[$k] = $v['rotate_warning'];
+                $wind_warning[$k] = $v['wind_warning'];
                 $updateTime[$k] = $v['update_time'];
             }
-            $warningTime = array_count_values($warning)[1];
-            $warn = array('warningTime' => $warningTime);
+            $heightWarningTime = array_count_values($height_warning)[1];
+            $weightWarningTime = array_count_values($weight_warning)[1];
+            $amplitudeWarningTime = array_count_values($amplitude_warning)[1];
+            $forceWarningTime = array_count_values($force_warning)[1];
+            $rotateWarningTime = array_count_values($rotate_warning)[1];
+            $windWarningTime = array_count_values($wind_warning)[1];
+
+            $warn = array(
+                'heightWarningTime' => $heightWarningTime,
+                'weightWarningTime' => $weightWarningTime,
+                'amplitudeWarningTime' => $amplitudeWarningTime,
+                'forceWarningTime' => $forceWarningTime,
+                'rotateWarningTime' => $rotateWarningTime,
+                'windWarningTime' => $windWarningTime,
+            );
+
             // 查询塔机基本信息，如额定力矩
             $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
             $model = $modelData[0]['model'];
@@ -147,7 +166,7 @@ class towerCraneController extends Controller {
     public function historyData(){
         if(IS_POST){
             $sim_num = I('post.sim_num');
-            $res = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(100)->select();
+            $res = D('Realinfo')->where('sim_num='.$sim_num)->order('update_time desc')->limit(200)->select();
             foreach ($res as $k => $v) {
                 $data[$k]['update_time'] = $v['update_time'];
                 $data[$k]['weight'] = $v['weight'];

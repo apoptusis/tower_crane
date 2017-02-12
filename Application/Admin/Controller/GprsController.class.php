@@ -31,25 +31,24 @@ class GprsController extends CommonController {
             }
             $data['force']=round($data['weight']*$data['amplitude']*9.8,2);
             // 10%的概率报警
-            $warning = mt_rand(0,100);
-            $warningWhat = mt_rand(0,5);
-            if($warningWhat = 0 && $warning > 90){
-                $data['amplitude_warning'] = 1;
-            }
-            if($warningWhat = 1 && $warning > 90){
+            $warningWhat = mt_rand(0,10);
+            if($warningWhat = 1 && mt_rand(0,100) > 95){
                 $data['weight_warning'] = 1;
             }
-            if($warningWhat = 2 && $warning > 90){
+            if($warningWhat = 2 && mt_rand(0,100) > 98){
                 $data['rotate_warning'] = 1;
             }
-            if($warningWhat = 3 && $warning > 90){
+            if($warningWhat = 3 && mt_rand(0,100) > 98){
                 $data['height_warning'] = 1;
             }
-            if($warningWhat = 4 && $warning > 90){
+            if($warningWhat = 4 && mt_rand(0,100) > 99){
                 $data['wind_warning'] = 1;
             }
-            if($warningWhat = 5 && $warning > 90){
+            if($warningWhat = 5 && mt_rand(0,100) > 95){
                 $data['force_warning'] = 1;
+            }
+            if($warningWhat = 6 && mt_rand(0,100) > 97){
+                $data['amplitude_warning'] = 1;
             }
             // 插入数据库
             $res = D('Realinfo')->add($data);

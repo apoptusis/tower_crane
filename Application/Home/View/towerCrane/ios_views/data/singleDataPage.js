@@ -23,19 +23,26 @@ export default class SingleDataPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            // 实时数据
             weight: null,
             height: null,
             force: null,
             amplitude: null,
             rotate: null,
             wind: null,
-            warningTime:null,
             update_time: null,
             startTime: null,
             endTime: null,
             duration: null,
             simStatus: null,
             lockStatus: null,
+            heightWarningTime: null,
+            weightWarningTime: null,
+            amplitudeWarningTime: null,
+            forceWarningTime: null,
+            rotateWarningTime: null,
+            windWarningTime: null,
+            // 基本数据
             model: null,
             top2arm: null,
             armHeight: null,
@@ -192,11 +199,17 @@ export default class SingleDataPage extends Component {
                 name: '报警消息',
                 component: Warning,
                 params: {
-
+                    heightWarningTime: this.state.heightWarningTime,
+                    weightWarningTime: this.state.weightWarningTime,
+                    amplitudeWarningTime: this.state.amplitudeWarningTime,
+                    forceWarningTime: this.state.forceWarningTime,
+                    rotateWarningTime: this.state.rotateWarningTime,
+                    windWarningTime: this.state.windWarningTime,
                 }
             })
         }
     }
+
     _goBaseInfoPage() {
         const { navigator } = this.props;
         if(navigator) {
@@ -258,7 +271,12 @@ export default class SingleDataPage extends Component {
                             amplitude: responseJson.data.amplitude,
                             rotate: responseJson.data.rotate,
                             wind: responseJson.data.wind,
-                            warningTime: responseJson.data.warningTime,
+                            heightWarningTime: responseJson.data.heightWarningTime,
+                            weightWarningTime: responseJson.data.weightWarningTime,
+                            amplitudeWarningTime: responseJson.data.amplitudeWarningTime,
+                            forceWarningTime: responseJson.data.forceWarningTime,
+                            rotateWarningTime: responseJson.data.rotateWarningTime,
+                            windWarningTime: responseJson.data.windWarningTime,
                             startTime: startTimeStr,
                             endTime: timeStr,
                             duration: (responseJson.data.duration/3600).toFixed(2),
