@@ -155,6 +155,8 @@ class towerCraneController extends Controller {
                 $data[$k]['amplitude'] = $v['amplitude'];
                 $data[$k]['rotate'] = $v['rotate'];
                 $data[$k]['wind'] = $v['wind'];
+                $data[$k]['sim_status'] = $v['sim_status'];
+                $data[$k]['lock_status'] = $v['lock_status'];
             }
             if($data){
                 return show(1, '查询成功', $data);
