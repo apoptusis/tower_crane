@@ -57,6 +57,7 @@ export default class navBar extends Component {
 
 const styles = StyleSheet.create({
     wrapper: {
+        // backgroundColor: "#63a5a1",
         backgroundColor: "#4a89dc",
     },
     container: {
