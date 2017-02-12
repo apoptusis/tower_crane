@@ -21,6 +21,12 @@ export default class baseInfo extends Component {
                     leftAction={ this._backToFront.bind(this) }
                 />
                 <ScrollView style={styles.container}>
+                    <View style={styles.infoContainer}>
+                        <View style={styles.infoItem}>
+                            <Text style={styles.infoTitle}>塔机型号: </Text>
+                            <Text style={styles.infoData}>{this.props.model}</Text>
+                        </View>
+                    </View>
                     <View style={styles.charts}>
                         <Text style={styles.chartsTitle}>力矩特性曲线</Text>
                         <WView
@@ -31,65 +37,61 @@ export default class baseInfo extends Component {
                     </View>
                     <View style={styles.infoContainer}>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>塔机型号: </Text>
-                            <Text style={styles.infoData}>{this.props.model} m</Text>
-                        </View>
-                        <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>塔臂高度: </Text>
+                            <Text style={styles.infoTitle}>塔臂高度</Text>
                             <Text style={styles.infoData}>{this.props.armHeight} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>塔顶到塔臂距离: </Text>
+                            <Text style={styles.infoTitle}>塔顶到塔臂距离</Text>
                             <Text style={styles.infoData}>{this.props.top2arm} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>塔底到塔臂距离: </Text>
+                            <Text style={styles.infoTitle}>塔底到塔臂距离</Text>
                             <Text style={styles.infoData}>{this.props.bottom2arm} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>吊绳高度: </Text>
+                            <Text style={styles.infoTitle}>吊绳高度</Text>
                             <Text style={styles.infoData}>{this.props.lineDropHeight} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>起重臂长度: </Text>
+                            <Text style={styles.infoTitle}>起重臂长</Text>
                             <Text style={styles.infoData}>{this.props.liftArm} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>平衡臂长度: </Text>
+                            <Text style={styles.infoTitle}>平衡臂长</Text>
                             <Text style={styles.infoData}>{this.props.balanceArm} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>前桅位置: </Text>
+                            <Text style={styles.infoTitle}>前桅位置</Text>
                             <Text style={styles.infoData}>{this.props.forcePro} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>后桅位置: </Text>
+                            <Text style={styles.infoTitle}>后桅位置</Text>
                             <Text style={styles.infoData}>{this.props.rearPro} m</Text>
                         </View>
                     </View>
                     <View style={styles.infoContainer}>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>额定重量: </Text>
+                            <Text style={styles.infoTitle}>额定重量</Text>
                             <Text style={styles.infoData}>{this.props.maxWeight} t</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>最大高度: </Text>
+                            <Text style={styles.infoTitle}>最大高度</Text>
                             <Text style={styles.infoData}>{this.props.maxHeight} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>额定力矩: </Text>
+                            <Text style={styles.infoTitle}>额定力矩</Text>
                             <Text style={styles.infoData}>{this.props.maxForce} kNm</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>额定幅度: </Text>
+                            <Text style={styles.infoTitle}>额定幅度</Text>
                             <Text style={styles.infoData}>{this.props.maxAmplitude} m</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>最大角度: </Text>
+                            <Text style={styles.infoTitle}>最大角度</Text>
                             <Text style={styles.infoData}>{this.props.maxRotate} °</Text>
                         </View>
                         <View style={styles.infoItem}>
-                            <Text style={styles.infoTitle}>最大风速: </Text>
+                            <Text style={styles.infoTitle}>最大风速</Text>
                             <Text style={styles.infoData}>{this.props.maxWind} m/s</Text>
                         </View>
                     </View>
@@ -146,16 +148,19 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     infoTitle: {
+        flex:1,
         marginLeft: 10,
         fontSize: 18,
         fontWeight: '400',
         color: '#333',
     },
     infoData: {
-        marginLeft: 10,
+        flex:1,
+        marginRight: 20,
         fontSize: 18,
         fontWeight: '300',
         color: '#666',
+        textAlign: 'right',
     }
 });
 
