@@ -4,8 +4,10 @@ import {
     StyleSheet,
     Text,
     View,
+    ScrollView,
 } from 'react-native';
 import WView from '../common/WView';
+import NavigationBar from '../common/navBar';
 
 export default class mapPage extends Component {
     constructor(props) {
@@ -17,11 +19,13 @@ export default class mapPage extends Component {
 
     render() {
         return (
-            <View style={styles.container}>
-                <WView
-                    url='http://localhost:8888/tower_crane/index.php/home/towerCrane/map.html'
-                    data={this.state.tokenId}
-                />
+            <View style={{flex:1}}>
+                <View style={styles.container}>
+                    <WView
+                        url='http://localhost:8888/tower_crane/index.php/home/towerCrane/map.html'
+                        data={this.state.tokenId}
+                    />
+                </View>
             </View>
         );
     }
@@ -44,7 +48,7 @@ export default class mapPage extends Component {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        marginTop:-20
+        marginTop: -20,
     }
 });
 

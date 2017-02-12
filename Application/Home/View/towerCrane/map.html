@@ -93,7 +93,7 @@ document.addEventListener("message", function(event) {
                 zoomToAccuracy:false      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
             });
             map.addControl(geolocation);
-            geolocation.getCurrentPosition();       // 进入页面直接定位
+//            geolocation.getCurrentPosition();       // 进入页面直接定位
             AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
             AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
         });
