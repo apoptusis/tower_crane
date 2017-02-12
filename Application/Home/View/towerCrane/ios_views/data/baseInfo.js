@@ -29,7 +29,6 @@ export default class baseInfo extends Component {
                     </View>
                     <Text>
                         {this.props.model}
-                        {this.props.momentCurve}
                         {this.props.top2arm}
                         {this.props.armHeight}
                         {this.props.bottom2arm}
