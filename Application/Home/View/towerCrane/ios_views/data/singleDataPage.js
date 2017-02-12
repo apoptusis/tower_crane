@@ -160,7 +160,7 @@ export default class SingleDataPage extends Component {
                         </TouchableOpacity>
                     </View>
 
-                    <View style={styles.linkContainer}>
+                    <View style={[styles.linkContainer,{marginBottom:10}]}>
                         <TouchableOpacity
                             style={styles.linkItem}
                             onPress={this._goBaseInfoPage.bind(this)}>
@@ -171,7 +171,6 @@ export default class SingleDataPage extends Component {
                             />
                         </TouchableOpacity>
                     </View>
-
                 </ScrollView>
             </View>
         );
