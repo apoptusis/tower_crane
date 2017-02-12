@@ -18,6 +18,7 @@ export default class help extends Component {
                 />
                 <WView
                     url='http://localhost:8888/tower_crane/Application/Home/View/towerCrane/ios_views/setting/terms.html'
+                    isScroll={true}
                 />
             </View>
         );

@@ -25,6 +25,7 @@ export default class Detail extends Component {
                 />
                 <WView
                     url={this.props.url}
+                    isScroll={true}
                 />
             </View>
         );

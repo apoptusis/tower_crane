@@ -13,6 +13,7 @@ export default class WView extends Component {
         super(props);
         this.state = {
             url : this.props.url,
+            isScroll : this.props.isScroll,
             isError : false,
         };
         this.webView = null;
@@ -34,7 +35,7 @@ export default class WView extends Component {
                             source={{url: this.state.url}}
                             ref={( webView ) => this.webView = webView}
                             startInLoadingState={true}
-                            scrollEnabled = {true}
+                            scrollEnabled = {this.state.isScroll}
                             onError={() => {
                                 this.setState({
                                     isError: true

@@ -75,6 +75,7 @@ export default class SingleDataPage extends Component {
                         <WView
                             url={'http://localhost:8888/tower_crane/index.php/home/towerCrane/historyData.html'}
                             data={this.props.sim_num}
+                            isScroll={false}
                         />
                     </View>
 
