@@ -133,7 +133,7 @@ export default class SingleDataPage extends Component {
                     </View>
 
                     <View style={styles.infoContainer}>
-                        <Text style={styles.containerTitle}> 状态 </Text>
+                        <Text style={styles.containerTitle}> 塔机状态 </Text>
                         <View style={styles.info}>
                             <View style={[styles.infoItem,{borderRightWidth:1}]}>
                                 <Text style={styles.infoData}>{this.state.lockStatus}</Text>
@@ -190,6 +190,7 @@ export default class SingleDataPage extends Component {
                 name: '报警消息',
                 component: Warning,
                 params: {
+                    sim_num: this.props.sim_num,
                     heightWarningTime: this.state.heightWarningTime,
                     weightWarningTime: this.state.weightWarningTime,
                     amplitudeWarningTime: this.state.amplitudeWarningTime,

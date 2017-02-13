@@ -99,23 +99,6 @@ class towerCraneController extends Controller {
         }
     }
 
-    public function baseInfo(){
-        if(IS_POST && I('post.sim_num')) {
-            $sim_num = I('post.sim_num');
-            // 查询塔机基本信息，如额定力矩
-            $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
-            $model = $modelData[0]['model'];
-            $baseData = D('Baseinfo')->where("model='".$model."'")->select();
-            $data = $baseData[0];
-            // 返回数据
-            if($modelData && $baseData){
-                return show(1, '查询成功', $data);
-            }else{
-                return show(0, '数据查询失败');
-            }
-        }
-    }
-
     public function realData(){
         if(IS_POST && I('post.sim_num')) {
             $sim_num = I('post.sim_num');
@@ -196,7 +179,46 @@ class towerCraneController extends Controller {
         $this->display();
     }
 
-/* * * * * * * * * * * * * * * * * * 阅读模块: 文章的查询 * * * * * * * * * * * * * * * * * */
+    public function baseInfo(){
+        if(IS_POST && I('post.sim_num')) {
+            $sim_num = I('post.sim_num');
+            // 查询塔机基本信息，如额定力矩
+            $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
+            $model = $modelData[0]['model'];
+            $baseData = D('Baseinfo')->where("model='".$model."'")->select();
+            $data = $baseData[0];
+            // 返回数据
+            if($modelData && $baseData){
+                return show(1, '查询成功', $data);
+            }else{
+                return show(0, '数据查询失败');
+            }
+        }
+    }
+
+    public function workTime(){
+        if(IS_POST && I('post.sim_num')) {
+//             $sim_num = 18673244444;
+            $sim_num = I('post.sim_num');
+            // 获取所有的时间戳
+            $res = D('Realinfo')->where('sim_num=' . $sim_num)->order('update_time desc')->select();
+            foreach ($res as $k => $v) {
+                $update_time[$k] = $v['update_time'];
+            }
+            // 时间戳格式化成[2017,1,1,10,32]并放在数组里
+            for ($i = 0; $i < count($update_time); $i++) {
+                $formatTime[$i] = date('Y,m,d,H,i,s', $update_time[$i]);
+                $formatTime[$i] = explode(',', $formatTime[$i]);
+            };
+//            var_dump($formatTime);
+            if ($res) {
+                return show(1, '查询成功', $formatTime);
+            } else {
+                return show(0, '数据查询失败');
+            }
+        }
+    }
+        /* * * * * * * * * * * * * * * * * * 阅读模块: 文章的查询 * * * * * * * * * * * * * * * * * */
 
     public function getArticle(){
         // 查询热门推荐(轮播图)

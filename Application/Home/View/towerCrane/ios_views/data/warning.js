@@ -4,6 +4,8 @@ import {
     Text,
     View,
     Image,
+    AlertIOS,
+    ScrollView,
 } from 'react-native';
 import NavigationBar from '../common/navBar';
 import WView from '../common/WView';
@@ -20,6 +22,10 @@ export default class warning extends Component {
             this.props.rotateWarningTime,
             this.props.windWarningTime,
         ];
+        this.state = {
+            workTime: null,
+        };
+        this._getWorkTime();
     }
     render() {
         return (
@@ -29,7 +35,7 @@ export default class warning extends Component {
                     leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
-                <View style={styles.container}>
+                <ScrollView style={styles.container}>
                     <View style={styles.chartsContainer}>
                         <Text style={styles.chartsTitle}>报警次数统计</Text>
                         <WView
@@ -47,13 +53,21 @@ export default class warning extends Component {
                             </View>
                             <View style={styles.infoItem}>
                                 <Text style={styles.infoData}>{this.props.during} h</Text>
-                                <Text style={styles.infoTitle}>在线时长</Text>
+                                <Text style={styles.infoTitle}>上次在线时长</Text>
                             </View>
                         </View>
                     </View>
-                </View>
+                    <View style={styles.chartsContainer}>
+                        <Text style={styles.chartsTitle}>工作时间统计</Text>
+                        <WView
+                            url='http://localhost:8888/tower_crane/Application/Home/View/towerCrane/ios_views/data/workTime.html'
+                            isScroll={false}
+                            data={this.state.workTime}
+                        />
+                    </View>
 
 
+                </ScrollView>
             </View>
         );
     }
@@ -62,6 +76,27 @@ export default class warning extends Component {
         if(navigator) {
             navigator.pop();
         }
+    }
+
+    _getWorkTime() {
+        let sim_num = this.props.sim_num;
+        let that = this;
+        let formData = new FormData();
+        formData.append("sim_num", sim_num);
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/workTime";
+        Util.post(url, formData,
+            function (responseJson) {
+                if (responseJson.status === 0) {
+                    AlertIOS.alert('查询失败！', responseJson.message, [{text: '确认'}]);
+                }
+                if (responseJson.status === 1) {
+                    that.setState({
+                        workTime: responseJson.data,
+                    });
+                }
+            }, function () {
+                AlertIOS.alert('查询失败！', '数据请求异常，请尝试重新登录', [{text: '确认'}]);
+            });
     }
 }
 
