@@ -10,6 +10,17 @@ import WView from '../common/WView';
 import Util from '../common/util';
 
 export default class warning extends Component {
+    constructor(props){
+        super(props);
+        this.warningData = [
+            this.props.weightWarningTime,
+            this.props.amplitudeWarningTime,
+            this.props.forceWarningTime,
+            this.props.heightWarningTime,
+            this.props.rotateWarningTime,
+            this.props.windWarningTime,
+        ];
+    }
     render() {
         return (
             <View>
@@ -18,12 +29,14 @@ export default class warning extends Component {
                     leftText={'返回'}
                     leftAction={ this._backToFront.bind(this) }
                 />
-                <Text>高度报警{this.props.heightWarningTime?this.props.heightWarningTime:0}</Text>
-                <Text>重量报警{this.props.weightWarningTime?this.props.weightWarningTime:0}</Text>
-                <Text>幅度报警{this.props.amplitudeWarningTime?this.props.amplitudeWarningTime:0}</Text>
-                <Text>力矩报警{this.props.forceWarningTime?this.props.forceWarningTime:0}</Text>
-                <Text>角度报警{this.props.rotateWarningTime?this.props.rotateWarningTime:0}</Text>
-                <Text>风速报警{this.props.windWarningTime?this.props.windWarningTime:0}</Text>
+                <View style={styles.charts}>
+                    <Text style={styles.chartsTitle}>报警次数统计</Text>
+                    <WView
+                        url='http://localhost:8888/tower_crane/Application/Home/View/towerCrane/ios_views/data/warning.html'
+                        isScroll={false}
+                        data={this.warningData}
+                    />
+                </View>
                 <Text>报警总数{this.props.rotateWarningTime+this.props.windWarningTime+this.props.heightWarningTime+this.props.weightWarningTime+this.props.amplitudeWarningTime+this.props.forceWarningTime}</Text>
 
             </View>
@@ -38,7 +51,21 @@ export default class warning extends Component {
 }
 
 const styles = StyleSheet.create({
-
+    charts: {
+        marginTop: 10,
+        height: Util.size.height/2,
+        borderTopWidth: Util.pixel,
+        borderBottomWidth: Util.pixel,
+        borderColor: 'rgba(0,0,0,0.1)',
+        backgroundColor: '#fff',
+    },
+    chartsTitle: {
+        marginTop: 10,
+        fontSize: 18,
+        fontWeight: '400',
+        color: '#333',
+        textAlign: 'center',
+    },
 });
 
 module.exports = warning;
