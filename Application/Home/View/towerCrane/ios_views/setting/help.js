@@ -9,8 +9,6 @@ import NavigationBar from '../common/navBar';
 import Util from '../common/util';
 import Swiper from 'react-native-swiper';
 
-var step1 = '';
-
 export default class help extends Component {
     render() {
         return (
