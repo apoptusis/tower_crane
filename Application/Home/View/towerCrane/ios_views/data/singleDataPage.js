@@ -62,6 +62,7 @@ export default class SingleDataPage extends Component {
         };
         this.timer = null;
         this._getSinglePageData();
+        this._getBaseInfo();
     }
 
     render() {
@@ -238,8 +239,45 @@ export default class SingleDataPage extends Component {
         }
     }
 
-    _getSinglePageData () {
-        // TODO:分开查询实时数据和塔机基础信息
+    // 查询塔机基础信息
+    _getBaseInfo() {
+        let sim_num = this.props.sim_num;
+        let that = this;
+        let formData = new FormData();
+        formData.append("sim_num", sim_num);
+        let url = "http://localhost:8888/tower_crane/index.php/Home/towerCrane/baseInfo";
+        Util.post(url, formData,
+            function (responseJson) {
+                if (responseJson.status === 0) {
+                    AlertIOS.alert('查询失败！', responseJson.message, [{text: '确认'}]);
+                }
+                if (responseJson.status === 1) {
+                    that.setState({
+                        model: responseJson.data.model,
+                        top2arm: responseJson.data.top2arm,
+                        armHeight: responseJson.data.armheight,
+                        bottom2arm: responseJson.data.bottom2arm,
+                        lineDropHeight: responseJson.data.linedropheight,
+                        liftArm: responseJson.data.liftarm,
+                        balanceArm: responseJson.data.balancearm,
+                        forcePro: responseJson.data.forcepro,
+                        rearPro: responseJson.data.rearpro,
+                        momentCurve: responseJson.data.moment_curve,
+                        maxWeight: responseJson.data.maxweight,
+                        maxHeight: responseJson.data.maxheight,
+                        maxForce: responseJson.data.maxforce,
+                        maxAmplitude: responseJson.data.maxamplitude,
+                        maxRotate: responseJson.data.maxrotate,
+                        maxWind: responseJson.data.maxwind,
+                    });
+                }
+            }, function () {
+                AlertIOS.alert('查询失败！', '数据请求异常，请尝试重新登录', [{text: '确认'}]);
+            });
+    }
+
+    // 查询塔机实时数据
+    _getSinglePageData() {
         // 获取从dataList传递过来的参数: sim_num
         let sim_num = this.props.sim_num;
         // 保存上下文
@@ -264,7 +302,6 @@ export default class SingleDataPage extends Component {
 
                         // 将数据发送给state
                         that.setState({
-                            // 实时数据
                             weight: responseJson.data.weight,
                             height: responseJson.data.height,
                             force: responseJson.data.force,
@@ -281,25 +318,8 @@ export default class SingleDataPage extends Component {
                             endTime: timeStr,
                             duration: (responseJson.data.duration/3600).toFixed(2),
                             update_time: timeStr,
-                            maxWeight: responseJson.data.maxweight,
                             simStatus: responseJson.data.sim_status.replace(1,'正常').replace(0,'停机'),
                             lockStatus: responseJson.data.lock_status.replace(0,'解锁').replace(1,'1级').replace(2,'2级').replace(3,'3级'),
-                            // 基础信息
-                            model: responseJson.data.model,
-                            top2arm: responseJson.data.top2arm,
-                            armHeight: responseJson.data.armheight,
-                            bottom2arm: responseJson.data.bottom2arm,
-                            lineDropHeight: responseJson.data.linedropheight,
-                            liftArm: responseJson.data.liftarm,
-                            balanceArm: responseJson.data.balancearm,
-                            forcePro: responseJson.data.forcepro,
-                            rearPro: responseJson.data.rearpro,
-                            momentCurve: responseJson.data.moment_curve,
-                            maxHeight: responseJson.data.maxheight,
-                            maxForce: responseJson.data.maxforce,
-                            maxAmplitude: responseJson.data.maxamplitude,
-                            maxRotate: responseJson.data.maxrotate,
-                            maxWind: responseJson.data.maxwind,
                         });
                     }
                 }, function () {

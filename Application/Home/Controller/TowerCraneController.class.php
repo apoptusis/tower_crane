@@ -99,6 +99,23 @@ class towerCraneController extends Controller {
         }
     }
 
+    public function baseInfo(){
+        if(IS_POST && I('post.sim_num')) {
+            $sim_num = I('post.sim_num');
+            // 查询塔机基本信息，如额定力矩
+            $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
+            $model = $modelData[0]['model'];
+            $baseData = D('Baseinfo')->where("model='".$model."'")->select();
+            $data = $baseData[0];
+            // 返回数据
+            if($modelData && $baseData){
+                return show(1, '查询成功', $data);
+            }else{
+                return show(0, '数据查询失败');
+            }
+        }
+    }
+
     public function realData(){
         if(IS_POST && I('post.sim_num')) {
             $sim_num = I('post.sim_num');
@@ -122,7 +139,6 @@ class towerCraneController extends Controller {
             $forceWarningTime = array_count_values($force_warning)[1];
             $rotateWarningTime = array_count_values($rotate_warning)[1];
             $windWarningTime = array_count_values($wind_warning)[1];
-
             $warn = array(
                 'heightWarningTime' => $heightWarningTime,
                 'weightWarningTime' => $weightWarningTime,
@@ -132,10 +148,6 @@ class towerCraneController extends Controller {
                 'windWarningTime' => $windWarningTime,
             );
 
-            // 查询塔机基本信息，如额定力矩
-            $modelData = D('Cranereg')->where('sim_num='.$sim_num)->select();
-            $model = $modelData[0]['model'];
-            $baseData = D('Baseinfo')->where("model='".$model."'")->select();
             // 计算在线时间
             for($i = 0; $i < count($updateTime); $i++){
                 $diff = $updateTime[$i-1] - $updateTime[$i];
@@ -152,15 +164,14 @@ class towerCraneController extends Controller {
                 'duration' => $duration,
             );
             // 拼接数组
-            $data = array_merge($realData[0],$baseData[0],$warn,$workTime);
+            $data = array_merge($realData[0],$warn,$workTime);
             // 返回数据
-            if($realData && $modelData && $baseData){
+            if($realData){
                 return show(1, '查询成功', $data);
             }else{
                 return show(0, '数据查询失败');
             }
         }
-        $this->display();
     }
 
     public function historyData(){
