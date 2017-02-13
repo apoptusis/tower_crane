@@ -150,7 +150,7 @@ export default class SingleDataPage extends Component {
                         <TouchableOpacity
                             style={styles.linkItem}
                             onPress={this._goWarningPage.bind(this)}>
-                            <Text style={styles.linkText}>报警统计</Text>
+                            <Text style={styles.linkText}>数据统计</Text>
                             <Image
                                 style={styles.moreIcon}
                                 source={{uri: moreIcon}}
