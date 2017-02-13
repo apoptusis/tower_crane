@@ -133,17 +133,7 @@ export default class SingleDataPage extends Component {
                     </View>
 
                     <View style={styles.infoContainer}>
-                        <Text style={styles.containerTitle}> 统计 </Text>
-                        <View style={styles.info}>
-                            <View style={[styles.infoItem,{borderRightWidth:1}]}>
-                                <Text style={styles.infoData}>{this.state.warningTime} 次</Text>
-                                <Text style={styles.infoTitle}>报警次数</Text>
-                            </View>
-                            <View style={styles.infoItem}>
-                                <Text style={styles.infoData}>{this.state.duration} h</Text>
-                                <Text style={styles.infoTitle}>在线时长</Text>
-                            </View>
-                        </View>
+                        <Text style={styles.containerTitle}> 状态 </Text>
                         <View style={styles.info}>
                             <View style={[styles.infoItem,{borderRightWidth:1}]}>
                                 <Text style={styles.infoData}>{this.state.lockStatus}</Text>
@@ -206,6 +196,7 @@ export default class SingleDataPage extends Component {
                     forceWarningTime: this.state.forceWarningTime,
                     rotateWarningTime: this.state.rotateWarningTime,
                     windWarningTime: this.state.windWarningTime,
+                    during: this.state.duration,
                 }
             })
         }
@@ -420,7 +411,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     infoData: {
-        fontSize: 34,
+        fontSize: 28,
         fontWeight: '300',
         color: '#333',
         textAlign: 'center',
