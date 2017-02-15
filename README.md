@@ -7,12 +7,12 @@
 ## 功能演示
 - 启动与启动
 
-![启动](/Images/demo/1.gif)
-![登录](/Images/demo/2.gif)
+![启动](../../Images/demo/1.gif)
+![登录](./Images/demo/2.gif)
 
 - 塔机定位和导航
 
-![定位](/Images/demo/3.gif)
+![定位](./Images/demo/3.gif)
 
 - 塔机数据展示
 
