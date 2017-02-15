@@ -6,10 +6,17 @@
 
 ## 功能演示
 1. 启动
+
 ![启动](/path/to/img.jpg)
 
 2. 登录
+
 ![登录](/path/to/img.jpg)
 
 3. 定位
+
 ![定位](/path/to/img.jpg)
+
+4. 数据
+
+![数据](/path/to/img.jpg)
