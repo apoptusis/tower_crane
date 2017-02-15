@@ -7,8 +7,8 @@
 ## 功能演示
 - 启动与启动
 
-![启动](../../Images/demo/1.gif)
-![登录](./Images/demo/2.gif)
+![启动](https://github.com/apoptusis/tower_crane/tree/master/Image/demo/1.gif)
+![登录](https://github.com/apoptusis/tower_crane/tree/master/Image/demo/2.gif)
 
 - 塔机定位和导航
 
