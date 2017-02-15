@@ -5,18 +5,26 @@
 2.后台采用Web模式，前台采用react native
 
 ## 功能演示
-1. 启动
+- 启动
 
 ![启动](/path/to/img.jpg)
 
-2. 登录
+- 登录
 
 ![登录](/path/to/img.jpg)
 
-3. 定位
+- 定位
 
 ![定位](/path/to/img.jpg)
 
-4. 数据
+- 数据
 
 ![数据](/path/to/img.jpg)
+
+- 资讯
+
+![资讯](/path/to/img.jpg)
+
+- 设置
+
+![设置](/path/to/img.jpg)
