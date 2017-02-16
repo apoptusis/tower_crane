@@ -19,37 +19,37 @@
 
 ### 1.3 使用的库和第三方插件：
 
-- APP：
+**APP：**
 
-react-native-percentage-circle
+  react-native-percentage-circle
 
-react-native-pull
+  react-native-pull
 
-react-native-search-bar
+  react-native-search-bar
 
-react-native-splash-screen
+  react-native-splash-screen
 
-react-native-storage
+  react-native-storage
 
-react-native-swiper
+  react-native-swiper
 
-react-native-vector-icons
+  react-native-vector-icons
 
-PHPMailer
+  PHPMailer
 
-echarts
+  echarts
 
-- 后台：
+**后台：**
 
-PHPExcel
+  PHPExcel
 
-Bootstrap
+  Bootstrap
 
-Layer
+  Layer
 
-Uploadify
+  Uploadify
 
-Jquery
+  Jquery
 
 ## 2 目录结构
 
