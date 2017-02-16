@@ -22,21 +22,33 @@
 **APP：**
 
 >react-native-percentage-circle
+
 >react-native-pull
+
 >react-native-search-bar
+
 >react-native-splash-screen
+
 >react-native-storage
+
 >react-native-swiper
+
 >react-native-vector-icons
+
 >PHPMailer
+
 >echarts
 
 **后台：**
 
 >PHPExcel
+
 >Bootstrap
+
 >Layer
+
 >Uploadify
+
 >Jquery
 
 ## 2 目录结构
