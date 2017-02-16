@@ -21,26 +21,26 @@
 
 **APP：**
 
-  react-native-percentage-circle
+>react-native-percentage-circle
 
-  react-native-pull
+>react-native-pull
 
-  react-native-search-bar
+>react-native-search-bar
 
-  react-native-splash-screen
+>react-native-splash-screen
 
-  react-native-storage
+>react-native-storage
 
-  react-native-swiper
+>react-native-swiper
 
-  react-native-vector-icons
+>react-native-vector-icons
 
-  PHPMailer
+>PHPMailer
 
-  echarts
+>echarts
 
 **后台：**
-
+>
   PHPExcel
 
   Bootstrap
