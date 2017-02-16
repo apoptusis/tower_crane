@@ -17,6 +17,69 @@
 - 文章推送：后台可以编辑和推送文章供客户端阅读查询，文章的形式包括但不局限于：各塔机详细资料、公司新产品信息、塔机维护修理和保养资料、塔机事故新闻、广告等。
 - 用户设置：用户可以自行修改登录密码、用户名、邮箱、手机号等基本信息，同时可以展示授权状态、公司地址等详细信息。用户可以发送信息反馈给后台系统。
 
+### 3 使用的库和第三方插件：
+
+**APP：**
+
+react-native-percentage-circle
+
+react-native-pull
+
+react-native-search-bar
+
+react-native-splash-screen
+
+react-native-storage
+
+react-native-swiper
+
+react-native-vector-icons
+
+PHPMailer
+
+echarts
+
+**后台：**
+
+PHPExcel
+
+Bootstrap
+
+Layer
+
+Uploadify
+
+Jquery
+
+## 目录结构
+
+```
+├── Application  // 后台和APP主文件
+│   ├── Admin        // 后台的Controller层和View层
+│   ├── Common       // 前后台共用的Model层和公共函数
+│   ├── Home         // 前台APP
+│   │   ├── Controller      // APP的Controller
+│   │   └── View/towerCrane // APP的View
+│   │   │   ├──ios_views         // React-Native各模块组件
+│   │   │   │   ├──common           // 共用方法
+│   │   │   │   ├──data             // 数据展示模块
+│   │   │   │   ├──map              // 地图定位模块
+│   │   │   │   ├──read             // 资讯模块
+│   │   │   │   ├──setting          // 设置模块
+│   │   │   │   ├──indexPage.js     // 主页面
+│   │   │   │   └──loginPage.js     // 登录页面
+│   │   │   ├──index.ios.js      // ios端入口文件
+│   │   │   ├──map.html          // 定位模块的webView页面
+│   │   │   └──historyData.html  // 历史数据的WebView页面
+│   └── Runtime	     // 运行时缓存
+├── Image        // 项目效果演示的GIF
+├── Public       // 后台使用到的JS文件、JS库、CSS文件和图片等
+├── ThinkPHP     // ThinkPHP框架的文件，和PHP第三方库
+├── Uploads      // 后台上传的Excel文件
+├── index.php    // ThinkPHP入口文件
+```
+## 前台部分介绍
+
 ## 功能演示
 - 启动与启动
 
