@@ -40,16 +40,16 @@
 >echarts
 
 **后台：**
->
-  PHPExcel
 
-  Bootstrap
+>PHPExcel
 
-  Layer
+>Bootstrap
 
-  Uploadify
+>Layer
 
-  Jquery
+>Uploadify
+
+>Jquery
 
 ## 2 目录结构
 
