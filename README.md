@@ -1,7 +1,7 @@
 # 塔机数据监控系统
 
 ## 项目介绍
-本项目是基于React Native的一款APP。后端采用PHP的ThinkPHP框架做数据与逻辑的处理，前端采用网页（后台）和IOS APP（前台），数据库为MySQL。
+> 本项目是基于React Native的一款APP。后端采用PHP的ThinkPHP框架做数据与逻辑的处理，前端采用网页（后台）和IOS APP（前台），数据库为MySQL。
 
 ### 1 基本流程思路：
 1. 塔机上的安装了很多传感器，这些传感器采集塔机运行时的实时数据。
@@ -20,25 +20,15 @@
 ### 3 使用的库和第三方插件：
 
 **APP：**
-
 react-native-percentage-circle
-
 react-native-pull
-
 react-native-search-bar
-
 react-native-splash-screen
-
 react-native-storage
-
 react-native-swiper
-
 react-native-vector-icons
-
 PHPMailer
-
 echarts
-
 **后台：**
 
 PHPExcel
@@ -52,7 +42,6 @@ Uploadify
 Jquery
 
 ## 目录结构
-
 ```
 ├── Application  // 后台和APP主文件
 │   ├── Admin        // 后台的Controller层和View层
