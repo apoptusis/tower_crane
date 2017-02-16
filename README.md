@@ -19,7 +19,8 @@
 
 ### 1.3 使用的库和第三方插件：
 
-**APP：**
+- APP：
+
 react-native-percentage-circle
 
 react-native-pull
@@ -38,7 +39,7 @@ PHPMailer
 
 echarts
 
-**后台：**
+- 后台：
 
 PHPExcel
 
@@ -51,6 +52,7 @@ Uploadify
 Jquery
 
 ## 2 目录结构
+
 ```
 ├── Application  // 后台和APP主文件
 │   ├── Admin        // 后台的Controller层和View层
@@ -76,9 +78,9 @@ Jquery
 ├── Uploads      // 后台上传的Excel文件
 ├── index.php    // ThinkPHP入口文件
 ```
-## 3 前台部分介绍
 
-## 3.1 功能演示
+## 3 前台部分介绍
+### 3.1 功能演示
 - 启动与启动
 
 ![启动](/Image/demo/1.gif)
